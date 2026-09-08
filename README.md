@@ -12,5 +12,5 @@
  - [Informações gerais (provisórias)](https://github.com/isel-leic-psc/.github/blob/main/profile/README.pt.md)
 
 **Moodle**
- - [Central](https://2627moodle.isel.pt/course/view.php?id=11147)
+ - [GEral](https://2627moodle.isel.pt/course/view.php?id=11147)
  - [LEIC52D](https://2627moodle.isel.pt/course/view.php?id=11356)
