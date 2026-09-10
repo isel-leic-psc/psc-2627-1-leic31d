@@ -7,8 +7,8 @@
 **Horário das aulas:**
  - 3ª feira, 14:00-16:00
  - 5ª feira, 14:00-16:00
- - 
-**Horário de apoio:**
+
+**Horário de apoio (F.0.24):**
  - 5ª feira, 11:00-13:00
  - Também poderá ser noutra altura, dependendo da disponibilidade
 
