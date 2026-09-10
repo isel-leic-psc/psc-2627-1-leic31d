@@ -4,9 +4,13 @@
 
 **Professor:** Ezequiel Conde, gabinete F.0.24
 
-**Horário:**
- - 3ª feira, 14:00-16:00, [T]
- - 5ª feira, 14:00-16:00, [T|P]
+**Horário das aulas:**
+ - 3ª feira, 14:00-16:00
+ - 5ª feira, 14:00-16:00
+ - 
+**Horário de apoio:**
+ - 5ª feira, 11:00-13:00
+ - Também poderá ser noutra altura, dependendo da disponibilidade
 
 **Info**
  - [Informações gerais (provisórias)](https://github.com/isel-leic-psc/.github/blob/main/profile/README.pt.md)
