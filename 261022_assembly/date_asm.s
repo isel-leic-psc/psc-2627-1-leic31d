@@ -1,4 +1,13 @@
 	.text
+/*
+uint16_t pack_date(int year, int month, int day)
+{
+	uint16_t date = year - 2000;
+	date = date | month << 7;
+	date = date | day << 11;
+	return date;
+}
+*/
 	.global	pack_date
 pack_date:
 	sub	$2000, %edi
