@@ -1,0 +1,2353 @@
+Script started on 2026-11-19 15:10:32+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="37"]
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ sudo apt install foliate[C[C[C[C[C[C[C[C[C[Cpwd[K[K[K[Kgcc .[K-c list.c
+[?2004l]133;C\]666;vte.shell.preexec!\[01m[Klist.c:[m[K In function ‘[01m[Klist_insert_next[m[K’:
+[01m[Klist.c:6:28:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kmalloc[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+    6 |         struct node *new = [01;31m[Kmalloc[m[K(sizeof *new);
+      |                            [01;31m[K^~~~~~[m[K
+[01m[Klist.c:3:1:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kmalloc[m[K’
+    2 | #include "list.h"
+  +++ |+[32m[K#include <stdlib.h>[m[K
+    3 | 
+[01m[Klist.c:6:28:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kmalloc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch-Wbuiltin-declaration-mismatch]8;;[m[K]
+    6 |         struct node *new = [01;35m[Kmalloc[m[K(sizeof *new);
+      |                            [01;35m[K^~~~~~[m[K
+[01m[Klist.c:6:28:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kmalloc[m[K’
+[01m[Klist.c:[m[K In function ‘[01m[Klist_remove[m[K’:
+[01m[Klist.c:21:9:[m[K [01;31m[Kerror: [m[Kimplicit declaration of function ‘[01m[Kfree[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wimplicit-function-declaration-Wimplicit-function-declaration]8;;[m[K]
+   21 |         [01;31m[Kfree[m[K(p);
+      |         [01;31m[K^~~~[m[K
+[01m[Klist.c:21:9:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kfree[m[K’
+[01m[Klist.c:21:9:[m[K [01;35m[Kwarning: [m[Kincompatible implicit declaration of built-in function ‘[01m[Kfree[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc-15.2.0/gcc/Warning-Options.html#index-Wbuiltin-declaration-mismatch-Wbuiltin-declaration-mismatch]8;;[m[K]
+[01m[Klist.c:21:9:[m[K [01;36m[Knote: [m[Kinclude ‘[01m[K<stdlib.h>[m[K’ or provide a declaration of ‘[01m[Kfree[m[K’
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc -c list.c
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ objec[K[Kdump -c list.o
+[?2004l]133;C\]666;vte.shell.preexec!\objdump: invalid option -- 'c'
+Usage: objdump <option(s)> <file(s)>
+ Display information from object <file(s)>.
+ At least one of the following switches must be given:
+  -a, --archive-headers    Display archive header information
+  -f, --file-headers       Display the contents of the overall file header
+  -p, --private-headers    Display object format specific file header contents
+  -P, --private=OPT,OPT... Display object format specific contents
+  -h, --[section-]headers  Display the contents of the section headers
+  -x, --all-headers        Display the contents of all headers
+  -d, --disassemble        Display assembler contents of executable sections
+  -D, --disassemble-all    Display assembler contents of all sections
+      --disassemble=<sym>  Display assembler contents from <sym>
+  -S, --source             Intermix source code with disassembly
+      --source-comment[=<txt>] Prefix lines of source code with <txt>
+  -s, --full-contents      Display the full contents of all sections requested
+  -g, --debugging          Display debug information in object file
+  -e, --debugging-tags     Display debug information using ctags style
+  -G, --stabs              Display (in raw form) any STABS info in the file
+  -W, --dwarf[a/=abbrev, A/=addr, r/=aranges, c/=cu_index, L/=decodedline,
+              f/=frames, F/=frames-interp, g/=gdb_index, i/=info, o/=loc,
+              m/=macro, p/=pubnames, t/=pubtypes, R/=Ranges, l/=rawline,
+              s/=str, O/=str-offsets, u/=trace_abbrev, T/=trace_aranges,
+              U/=trace_info]
+                           Display the contents of DWARF debug sections
+  -Wk,--dwarf=links        Display the contents of sections that link to
+                            separate debuginfo files
+  -WK,--dwarf=follow-links
+                           Follow links to separate debug info files (default)
+  -WN,--dwarf=no-follow-links
+                           Do not follow links to separate debug info files
+  -L, --process-links      Display the contents of non-debug sections in
+                            separate debuginfo files.  (Implies -WK)
+      --ctf[=SECTION]      Display CTF info from SECTION, (default `.ctf')
+      --sframe[=SECTION]   Display SFrame info from SECTION, (default '.sframe')
+  -t, --syms               Display the contents of the symbol table(s)
+  -T, --dynamic-syms       Display the contents of the dynamic symbol table
+  -r, --reloc              Display the relocation entries in the file
+  -R, --dynamic-reloc      Display the dynamic relocation entries in the file
+  @<file>                  Read options from <file>
+  -v, --version            Display this program's version number
+  -i, --info               List object formats and architectures supported
+  -H, --help               Display this information
+
+ The following switches are optional:
+  -b, --target=BFDNAME           Specify the target object format as BFDNAME
+  -m, --architecture=MACHINE     Specify the target architecture as MACHINE
+  -j, --section=NAME             Only display information for section NAME
+  -M, --disassembler-options=OPT Pass text OPT on to the disassembler
+  -EB --endian=big               Assume big endian format when disassembling
+  -EL --endian=little            Assume little endian format when disassembling
+      --file-start-context       Include context from start of file (with -S)
+  -I, --include=DIR              Add DIR to search list for source files
+  -l, --line-numbers             Include line numbers and filenames in output
+  -F, --file-offsets             Include file offsets when displaying information
+  -C, --demangle[=STYLE]         Decode mangled/processed symbol names
+                                   STYLE can be "none", "auto", "gnu-v3",
+                                   "java", "gnat", "dlang", "rust"
+      --recurse-limit            Enable a limit on recursion whilst demangling
+                                  (default)
+      --no-recurse-limit         Disable a limit on recursion whilst demangling
+  -w, --wide                     Format output for more than 80 columns
+  -U[d|l|i|x|e|h]                Controls the display of UTF-8 unicode characters
+  --unicode=[default|locale|invalid|hex|escape|highlight]
+  -z, --disassemble-zeroes       Do not skip blocks of zeroes when disassembling
+      --start-address=ADDR       Only process data whose address is >= ADDR
+      --stop-address=ADDR        Only process data whose address is < ADDR
+      --no-addresses             Do not print address alongside disassembly
+      --prefix-addresses         Print complete address alongside disassembly
+      --[no-]show-raw-insn       Display hex alongside symbolic disassembly
+      --insn-width=WIDTH         Display WIDTH bytes on a single line for -d
+      --adjust-vma=OFFSET        Add OFFSET to all displayed section addresses
+      --show-all-symbols         When disassembling, display all symbols at a given address
+      --special-syms             Include special symbols in symbol dumps
+      --inlines                  Print all inlines for source line (with -l)
+      --prefix=PREFIX            Add PREFIX to absolute paths for -S
+      --prefix-strip=LEVEL       Strip initial directory names for -S
+      --dwarf-depth=N            Do not display DIEs at depth N or greater
+      --dwarf-start=N            Display DIEs starting at offset N
+      --dwarf-check              Make additional dwarf consistency checks.
+      --ctf-parent=NAME          Use CTF archive member NAME as the CTF parent
+      --visualize-jumps          Visualize jumps by drawing ASCII art lines
+      --visualize-jumps=color    Use colors in the ASCII art
+      --visualize-jumps=extended-color
+                                 Use extended 8-bit color codes
+      --visualize-jumps=off      Disable jump visualization
+      --disassembler-color=off       Disable disassembler color output. (default)
+      --disassembler-color=terminal  Enable disassembler color output if displaying on a terminal.
+      --disassembler-color=on        Enable disassembler color output.
+      --disassembler-color=extended  Use 8-bit colors in disassembler output.
+
+objdump: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big srec symbolsrec verilog tekhex binary ihex plugin
+objdump: supported architectures: i386 i386:x86-64 i386:x64-32 i8086 i386:intel i386:x86-64:intel i386:x64-32:intel iamcu iamcu:intel
+
+The following i386/x86-64 specific disassembler options are supported for use
+with the -M switch (multiple options should be separated by commas):
+  x86-64      Disassemble in 64bit mode
+  i386        Disassemble in 32bit mode
+  i8086       Disassemble in 16bit mode
+  att         Display instruction in AT&T syntax
+  intel       Display instruction in Intel syntax
+  att-mnemonic
+              Display instruction in AT&T mnemonic
+  intel-mnemonic
+              Display instruction in Intel mnemonic
+  addr64      Assume 64bit address size
+  addr32      Assume 32bit address size
+  addr16      Assume 16bit address size
+  data32      Assume 32bit data size
+  data16      Assume 16bit data size
+  suffix      Always display instruction suffix in AT&T syntax
+  amd64       Display instruction in AMD64 ISA
+  intel64     Display instruction in Intel64 ISA
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ objdump -c list.o[1P[1@d
+[?2004l]133;C\]666;vte.shell.preexec!\
+list.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <list_insert_next>:
+   0:	f3 0f 1e fa          	endbr64
+   4:	55                   	push   %rbp
+   5:	48 89 e5             	mov    %rsp,%rbp
+   8:	48 83 ec 20          	sub    $0x20,%rsp
+   c:	48 89 7d e8          	mov    %rdi,-0x18(%rbp)
+  10:	48 89 75 e0          	mov    %rsi,-0x20(%rbp)
+  14:	bf 18 00 00 00       	mov    $0x18,%edi
+  19:	e8 00 00 00 00       	call   1e <list_insert_next+0x1e>
+  1e:	48 89 45 f8          	mov    %rax,-0x8(%rbp)
+  22:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  26:	48 8b 55 e0          	mov    -0x20(%rbp),%rdx
+  2a:	48 89 50 10          	mov    %rdx,0x10(%rax)
+  2e:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  32:	48 8b 10             	mov    (%rax),%rdx
+  35:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  39:	48 89 10             	mov    %rdx,(%rax)
+  3c:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  40:	48 8b 55 e8          	mov    -0x18(%rbp),%rdx
+  44:	48 89 50 08          	mov    %rdx,0x8(%rax)
+  48:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  4c:	48 8b 00             	mov    (%rax),%rax
+  4f:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+  53:	48 89 50 08          	mov    %rdx,0x8(%rax)
+  57:	48 8b 45 e8          	mov    -0x18(%rbp),%rax
+  5b:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+  5f:	48 89 10             	mov    %rdx,(%rax)
+  62:	90                   	nop
+  63:	c9                   	leave
+  64:	c3                   	ret
+
+0000000000000065 <list_remove>:
+  65:	f3 0f 1e fa          	endbr64
+  69:	55                   	push   %rbp
+  6a:	48 89 e5             	mov    %rsp,%rbp
+  6d:	48 83 ec 10          	sub    $0x10,%rsp
+  71:	48 89 7d f8          	mov    %rdi,-0x8(%rbp)
+  75:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  79:	48 8b 40 08          	mov    0x8(%rax),%rax
+  7d:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+  81:	48 8b 12             	mov    (%rdx),%rdx
+  84:	48 89 10             	mov    %rdx,(%rax)
+  87:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  8b:	48 8b 00             	mov    (%rax),%rax
+  8e:	48 8b 55 f8          	mov    -0x8(%rbp),%rdx
+  92:	48 8b 52 08          	mov    0x8(%rdx),%rdx
+  96:	48 89 50 08          	mov    %rdx,0x8(%rax)
+  9a:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  9e:	48 89 c7             	mov    %rax,%rdi
+  a1:	e8 00 00 00 00       	call   a6 <list_remove+0x41>
+  a6:	90                   	nop
+  a7:	c9                   	leave
+  a8:	c3                   	ret
+
+00000000000000a9 <list_empty>:
+  a9:	f3 0f 1e fa          	endbr64
+  ad:	55                   	push   %rbp
+  ae:	48 89 e5             	mov    %rsp,%rbp
+  b1:	48 89 7d f8          	mov    %rdi,-0x8(%rbp)
+  b5:	48 8b 45 f8          	mov    -0x8(%rbp),%rax
+  b9:	48 8b 00             	mov    (%rax),%rax
+  bc:	48 39 45 f8          	cmp    %rax,-0x8(%rbp)
+  c0:	0f 94 c0             	sete   %al
+  c3:	5d                   	pop    %rbp
+  c4:	c3                   	ret
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ objdump -d list.oc[C[C[C[C[C[C[C -Og
+[?2004l]133;C\]666;vte.shell.preexec!\objdump: invalid option -- 'c'
+Usage: objdump <option(s)> <file(s)>
+ Display information from object <file(s)>.
+ At least one of the following switches must be given:
+  -a, --archive-headers    Display archive header information
+  -f, --file-headers       Display the contents of the overall file header
+  -p, --private-headers    Display object format specific file header contents
+  -P, --private=OPT,OPT... Display object format specific contents
+  -h, --[section-]headers  Display the contents of the section headers
+  -x, --all-headers        Display the contents of all headers
+  -d, --disassemble        Display assembler contents of executable sections
+  -D, --disassemble-all    Display assembler contents of all sections
+      --disassemble=<sym>  Display assembler contents from <sym>
+  -S, --source             Intermix source code with disassembly
+      --source-comment[=<txt>] Prefix lines of source code with <txt>
+  -s, --full-contents      Display the full contents of all sections requested
+  -g, --debugging          Display debug information in object file
+  -e, --debugging-tags     Display debug information using ctags style
+  -G, --stabs              Display (in raw form) any STABS info in the file
+  -W, --dwarf[a/=abbrev, A/=addr, r/=aranges, c/=cu_index, L/=decodedline,
+              f/=frames, F/=frames-interp, g/=gdb_index, i/=info, o/=loc,
+              m/=macro, p/=pubnames, t/=pubtypes, R/=Ranges, l/=rawline,
+              s/=str, O/=str-offsets, u/=trace_abbrev, T/=trace_aranges,
+              U/=trace_info]
+                           Display the contents of DWARF debug sections
+  -Wk,--dwarf=links        Display the contents of sections that link to
+                            separate debuginfo files
+  -WK,--dwarf=follow-links
+                           Follow links to separate debug info files (default)
+  -WN,--dwarf=no-follow-links
+                           Do not follow links to separate debug info files
+  -L, --process-links      Display the contents of non-debug sections in
+                            separate debuginfo files.  (Implies -WK)
+      --ctf[=SECTION]      Display CTF info from SECTION, (default `.ctf')
+      --sframe[=SECTION]   Display SFrame info from SECTION, (default '.sframe')
+  -t, --syms               Display the contents of the symbol table(s)
+  -T, --dynamic-syms       Display the contents of the dynamic symbol table
+  -r, --reloc              Display the relocation entries in the file
+  -R, --dynamic-reloc      Display the dynamic relocation entries in the file
+  @<file>                  Read options from <file>
+  -v, --version            Display this program's version number
+  -i, --info               List object formats and architectures supported
+  -H, --help               Display this information
+
+ The following switches are optional:
+  -b, --target=BFDNAME           Specify the target object format as BFDNAME
+  -m, --architecture=MACHINE     Specify the target architecture as MACHINE
+  -j, --section=NAME             Only display information for section NAME
+  -M, --disassembler-options=OPT Pass text OPT on to the disassembler
+  -EB --endian=big               Assume big endian format when disassembling
+  -EL --endian=little            Assume little endian format when disassembling
+      --file-start-context       Include context from start of file (with -S)
+  -I, --include=DIR              Add DIR to search list for source files
+  -l, --line-numbers             Include line numbers and filenames in output
+  -F, --file-offsets             Include file offsets when displaying information
+  -C, --demangle[=STYLE]         Decode mangled/processed symbol names
+                                   STYLE can be "none", "auto", "gnu-v3",
+                                   "java", "gnat", "dlang", "rust"
+      --recurse-limit            Enable a limit on recursion whilst demangling
+                                  (default)
+      --no-recurse-limit         Disable a limit on recursion whilst demangling
+  -w, --wide                     Format output for more than 80 columns
+  -U[d|l|i|x|e|h]                Controls the display of UTF-8 unicode characters
+  --unicode=[default|locale|invalid|hex|escape|highlight]
+  -z, --disassemble-zeroes       Do not skip blocks of zeroes when disassembling
+      --start-address=ADDR       Only process data whose address is >= ADDR
+      --stop-address=ADDR        Only process data whose address is < ADDR
+      --no-addresses             Do not print address alongside disassembly
+      --prefix-addresses         Print complete address alongside disassembly
+      --[no-]show-raw-insn       Display hex alongside symbolic disassembly
+      --insn-width=WIDTH         Display WIDTH bytes on a single line for -d
+      --adjust-vma=OFFSET        Add OFFSET to all displayed section addresses
+      --show-all-symbols         When disassembling, display all symbols at a given address
+      --special-syms             Include special symbols in symbol dumps
+      --inlines                  Print all inlines for source line (with -l)
+      --prefix=PREFIX            Add PREFIX to absolute paths for -S
+      --prefix-strip=LEVEL       Strip initial directory names for -S
+      --dwarf-depth=N            Do not display DIEs at depth N or greater
+      --dwarf-start=N            Display DIEs starting at offset N
+      --dwarf-check              Make additional dwarf consistency checks.
+      --ctf-parent=NAME          Use CTF archive member NAME as the CTF parent
+      --visualize-jumps          Visualize jumps by drawing ASCII art lines
+      --visualize-jumps=color    Use colors in the ASCII art
+      --visualize-jumps=extended-color
+                                 Use extended 8-bit color codes
+      --visualize-jumps=off      Disable jump visualization
+      --disassembler-color=off       Disable disassembler color output. (default)
+      --disassembler-color=terminal  Enable disassembler color output if displaying on a terminal.
+      --disassembler-color=on        Enable disassembler color output.
+      --disassembler-color=extended  Use 8-bit colors in disassembler output.
+
+objdump: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big srec symbolsrec verilog tekhex binary ihex plugin
+objdump: supported architectures: i386 i386:x86-64 i386:x64-32 i8086 i386:intel i386:x86-64:intel i386:x64-32:intel iamcu iamcu:intel
+
+The following i386/x86-64 specific disassembler options are supported for use
+with the -M switch (multiple options should be separated by commas):
+  x86-64      Disassemble in 64bit mode
+  i386        Disassemble in 32bit mode
+  i8086       Disassemble in 16bit mode
+  att         Display instruction in AT&T syntax
+  intel       Display instruction in Intel syntax
+  att-mnemonic
+              Display instruction in AT&T mnemonic
+  intel-mnemonic
+              Display instruction in Intel mnemonic
+  addr64      Assume 64bit address size
+  addr32      Assume 32bit address size
+  addr16      Assume 16bit address size
+  data32      Assume 32bit data size
+  data16      Assume 16bit data size
+  suffix      Always display instruction suffix in AT&T syntax
+  amd64       Display instruction in AMD64 ISA
+  intel64     Display instruction in Intel64 ISA
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ objdump -c list.o -Og[4Pd list.oc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4Pgcc -c list.c -Og
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc -c list.c -Og[C[C[C[C[C[C[C[C[C[C[4@objdump -c list.o[C[C[C[C[4Pd list.o
+[?2004l]133;C\]666;vte.shell.preexec!\
+list.o:     file format elf64-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <list_insert_next>:
+   0:	f3 0f 1e fa          	endbr64
+   4:	55                   	push   %rbp
+   5:	53                   	push   %rbx
+   6:	48 83 ec 08          	sub    $0x8,%rsp
+   a:	48 89 fb             	mov    %rdi,%rbx
+   d:	48 89 f5             	mov    %rsi,%rbp
+  10:	bf 18 00 00 00       	mov    $0x18,%edi
+  15:	e8 00 00 00 00       	call   1a <list_insert_next+0x1a>
+  1a:	48 89 68 10          	mov    %rbp,0x10(%rax)
+  1e:	48 8b 13             	mov    (%rbx),%rdx
+  21:	48 89 10             	mov    %rdx,(%rax)
+  24:	48 89 58 08          	mov    %rbx,0x8(%rax)
+  28:	48 89 42 08          	mov    %rax,0x8(%rdx)
+  2c:	48 89 03             	mov    %rax,(%rbx)
+  2f:	48 83 c4 08          	add    $0x8,%rsp
+  33:	5b                   	pop    %rbx
+  34:	5d                   	pop    %rbp
+  35:	c3                   	ret
+
+0000000000000036 <list_remove>:
+  36:	f3 0f 1e fa          	endbr64
+  3a:	48 83 ec 08          	sub    $0x8,%rsp
+  3e:	48 8b 57 08          	mov    0x8(%rdi),%rdx
+  42:	48 8b 07             	mov    (%rdi),%rax
+  45:	48 89 02             	mov    %rax,(%rdx)
+  48:	48 8b 57 08          	mov    0x8(%rdi),%rdx
+  4c:	48 89 50 08          	mov    %rdx,0x8(%rax)
+  50:	e8 00 00 00 00       	call   55 <list_remove+0x1f>
+  55:	48 83 c4 08          	add    $0x8,%rsp
+  59:	c3                   	ret
+
+000000000000005a <list_empty>:
+  5a:	f3 0f 1e fa          	endbr64
+  5e:	48 39 3f             	cmp    %rdi,(%rdi)
+  61:	0f 94 c0             	sete   %al
+  64:	c3                   	ret
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 56
+-rw-rw-r--+ 1 ezequiel ezequiel   418 Nov 19 15:11 list.c
+-rw-rw-r--+ 1 ezequiel ezequiel   183 Nov 19 15:05 list.h
+-rw-rw-r--  1 ezequiel ezequiel  1672 Nov 19 15:13 list.o
+-rw-rw-r--+ 1 ezequiel ezequiel 28672 Nov 19 15:15 typescript
+-rw-r--r--+ 1 ezequiel ezequiel  2623 Nov 17 16:45 wqueue2.c
+-rw-rw-r--+ 1 ezequiel ezequiel  2530 Nov 19 15:09 wqueue3.c
+-rw-rw-r--+ 1 ezequiel ezequiel  5664 Nov 19 15:09 wqueue3.o
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o list.o [K]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o list.o [K]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o list.o [K]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o list.o [K]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o list.o [K]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o list.o [K]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o list.o [K]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o list.o 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -al
+[?2004l]133;C\]666;vte.shell.preexec!\total 84
+drwxrwxr-x+  2 ezequiel ezequiel  4096 Nov 19 15:15 [0m[01;34m.[0m
+drwxrwxr-x+ 20 ezequiel ezequiel  4096 Nov 19 13:59 [01;34m..[0m
+-rwxrwxr-x+  1 ezequiel ezequiel 17048 Nov 19 15:15 [01;32ma.out[0m
+-rw-rw-r--+  1 ezequiel ezequiel   418 Nov 19 15:11 list.c
+-rw-rw-r--+  1 ezequiel ezequiel   183 Nov 19 15:05 list.h
+-rw-rw-r--   1 ezequiel ezequiel  1672 Nov 19 15:13 list.o
+-rw-rw-r--+  1 ezequiel ezequiel 28672 Nov 19 15:15 typescript
+-rw-r--r--+  1 ezequiel ezequiel  2623 Nov 17 16:45 wqueue2.c
+-rw-rw-r--+  1 ezequiel ezequiel  2530 Nov 19 15:09 wqueue3.c
+-rw-rw-r--+  1 ezequiel ezequiel  5664 Nov 19 15:09 wqueue3.o
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ./a.out 
+[?2004l]133;C\]666;vte.shell.preexec!\> h
+Comandos:
+        s        - Sair do programa
+        h        - Mostrar lista de comando
+        n <name> - Chegada de novo utente
+        d <name> - Desistencia de utente
+        l        - Listar fila de espera
+        a        - Atender utente
+> n Ana
+> l
+[1] Ana
+> n Luis
+> l
+[1] Luis
+[2] Ana
+> n Rui
+> l
+[1] Rui
+[2] Luis
+[3] Ana
+> a
+Atender Rui
+> s
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ./a.out [2Pls -algcc wqueue3.o list.o [C[C[C[C[C[C[C[C[C[Cls -l[Kobjdump -d list.o[C[C[C[C[C[C[C[C[C[Cgcc -c list.c -Og[C[C[C[C[C[C[C[C[C[C[4@objdump -c list.o[C[C[C[C[4Pd list.oc list.o -Og[C[C[C[C[C[C[C[C[C[C[4Pgcc -c list.c[C[C[C[C[C[C[C[C[C[C[C[C[C[Cobjdump -d list.o[C[C[C[C[C[C[C[C[C[Cgcc -c list.c -Og
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc -c list.c -Og[K[K[K[K[K[K[K[K[K[Kwqueue.c -Og
+[?2004l]133;C\]666;vte.shell.preexec!\[01m[Kcc1:[m[K [01;31m[Kfatal error: [m[Kwqueue.c: No such file or directory
+compilation terminated.
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc -c wqueue.c -Og[1@3
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc -c wqueue3.c -Og[1P[C[C[C[C[C[C[2Plist[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P./a.out [2Pls -algcc wqueue3.o list.o [C[C[C[C[C[C[C[C[C[Cls -l[Kgcc wqueue3.o list.o 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ./a.out 
+[?2004l]133;C\]666;vte.shell.preexec!\> n Ana
+> n Luis	
+> l
+[1] Ana
+[2] Luis
+> no    Rui
+> l
+[1] Ana
+[2] Luis
+[3] Rui
+> a
+Atender Ana
+> l
+[1] Luis
+[2] Rui
+> a
+Atender Luis
+> l
+[1] Rui
+> a
+Atender Rui
+> l
+> l
+> sair
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ./a.out 
+[?2004l]133;C\]666;vte.shell.preexec!\> n ana
+> l
+[1] ana
+> a
+Atender ana
+> a
+Fila vazia
+> a
+Fila vazia
+> a
+Fila vazia
+> s
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ./a.out gcc wqueue3.o list.o 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ obd[Kjdump -d ao[K.out 
+[?2004l]133;C\]666;vte.shell.preexec!\
+a.out:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+0000000000001000 <_init>:
+    1000:	f3 0f 1e fa          	endbr64
+    1004:	48 83 ec 08          	sub    $0x8,%rsp
+    1008:	48 8b 05 d9 2f 00 00 	mov    0x2fd9(%rip),%rax        # 3fe8 <__gmon_start__@Base>
+    100f:	48 85 c0             	test   %rax,%rax
+    1012:	74 02                	je     1016 <_init+0x16>
+    1014:	ff d0                	call   *%rax
+    1016:	48 83 c4 08          	add    $0x8,%rsp
+    101a:	c3                   	ret
+
+Disassembly of section .plt:
+
+0000000000001020 <.plt>:
+    1020:	ff 35 32 2f 00 00    	push   0x2f32(%rip)        # 3f58 <_GLOBAL_OFFSET_TABLE_+0x8>
+    1026:	ff 25 34 2f 00 00    	jmp    *0x2f34(%rip)        # 3f60 <_GLOBAL_OFFSET_TABLE_+0x10>
+    102c:	0f 1f 40 00          	nopl   0x0(%rax)
+    1030:	f3 0f 1e fa          	endbr64
+    1034:	68 00 00 00 00       	push   $0x0
+    1039:	e9 e2 ff ff ff       	jmp    1020 <_init+0x20>
+    103e:	66 90                	xchg   %ax,%ax
+    1040:	f3 0f 1e fa          	endbr64
+    1044:	68 01 00 00 00       	push   $0x1
+    1049:	e9 d2 ff ff ff       	jmp    1020 <_init+0x20>
+    104e:	66 90                	xchg   %ax,%ax
+    1050:	f3 0f 1e fa          	endbr64
+    1054:	68 02 00 00 00       	push   $0x2
+    1059:	e9 c2 ff ff ff       	jmp    1020 <_init+0x20>
+    105e:	66 90                	xchg   %ax,%ax
+    1060:	f3 0f 1e fa          	endbr64
+    1064:	68 03 00 00 00       	push   $0x3
+    1069:	e9 b2 ff ff ff       	jmp    1020 <_init+0x20>
+    106e:	66 90                	xchg   %ax,%ax
+    1070:	f3 0f 1e fa          	endbr64
+    1074:	68 04 00 00 00       	push   $0x4
+    1079:	e9 a2 ff ff ff       	jmp    1020 <_init+0x20>
+    107e:	66 90                	xchg   %ax,%ax
+    1080:	f3 0f 1e fa          	endbr64
+    1084:	68 05 00 00 00       	push   $0x5
+    1089:	e9 92 ff ff ff       	jmp    1020 <_init+0x20>
+    108e:	66 90                	xchg   %ax,%ax
+    1090:	f3 0f 1e fa          	endbr64
+    1094:	68 06 00 00 00       	push   $0x6
+    1099:	e9 82 ff ff ff       	jmp    1020 <_init+0x20>
+    109e:	66 90                	xchg   %ax,%ax
+    10a0:	f3 0f 1e fa          	endbr64
+    10a4:	68 07 00 00 00       	push   $0x7
+    10a9:	e9 72 ff ff ff       	jmp    1020 <_init+0x20>
+    10ae:	66 90                	xchg   %ax,%ax
+    10b0:	f3 0f 1e fa          	endbr64
+    10b4:	68 08 00 00 00       	push   $0x8
+    10b9:	e9 62 ff ff ff       	jmp    1020 <_init+0x20>
+    10be:	66 90                	xchg   %ax,%ax
+    10c0:	f3 0f 1e fa          	endbr64
+    10c4:	68 09 00 00 00       	push   $0x9
+    10c9:	e9 52 ff ff ff       	jmp    1020 <_init+0x20>
+    10ce:	66 90                	xchg   %ax,%ax
+    10d0:	f3 0f 1e fa          	endbr64
+    10d4:	68 0a 00 00 00       	push   $0xa
+    10d9:	e9 42 ff ff ff       	jmp    1020 <_init+0x20>
+    10de:	66 90                	xchg   %ax,%ax
+    10e0:	f3 0f 1e fa          	endbr64
+    10e4:	68 0b 00 00 00       	push   $0xb
+    10e9:	e9 32 ff ff ff       	jmp    1020 <_init+0x20>
+    10ee:	66 90                	xchg   %ax,%ax
+    10f0:	f3 0f 1e fa          	endbr64
+    10f4:	68 0c 00 00 00       	push   $0xc
+    10f9:	e9 22 ff ff ff       	jmp    1020 <_init+0x20>
+    10fe:	66 90                	xchg   %ax,%ax
+    1100:	f3 0f 1e fa          	endbr64
+    1104:	68 0d 00 00 00       	push   $0xd
+    1109:	e9 12 ff ff ff       	jmp    1020 <_init+0x20>
+    110e:	66 90                	xchg   %ax,%ax
+
+Disassembly of section .plt.got:
+
+0000000000001110 <__cxa_finalize@plt>:
+    1110:	f3 0f 1e fa          	endbr64
+    1114:	ff 25 de 2e 00 00    	jmp    *0x2ede(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    111a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+Disassembly of section .plt.sec:
+
+0000000000001120 <__ctype_toupper_loc@plt>:
+    1120:	f3 0f 1e fa          	endbr64
+    1124:	ff 25 3e 2e 00 00    	jmp    *0x2e3e(%rip)        # 3f68 <__ctype_toupper_loc@GLIBC_2.3>
+    112a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001130 <free@plt>:
+    1130:	f3 0f 1e fa          	endbr64
+    1134:	ff 25 36 2e 00 00    	jmp    *0x2e36(%rip)        # 3f70 <free@GLIBC_2.2.5>
+    113a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001140 <puts@plt>:
+    1140:	f3 0f 1e fa          	endbr64
+    1144:	ff 25 2e 2e 00 00    	jmp    *0x2e2e(%rip)        # 3f78 <puts@GLIBC_2.2.5>
+    114a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001150 <strlen@plt>:
+    1150:	f3 0f 1e fa          	endbr64
+    1154:	ff 25 26 2e 00 00    	jmp    *0x2e26(%rip)        # 3f80 <strlen@GLIBC_2.2.5>
+    115a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001160 <__stack_chk_fail@plt>:
+    1160:	f3 0f 1e fa          	endbr64
+    1164:	ff 25 1e 2e 00 00    	jmp    *0x2e1e(%rip)        # 3f88 <__stack_chk_fail@GLIBC_2.4>
+    116a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001170 <fgets@plt>:
+    1170:	f3 0f 1e fa          	endbr64
+    1174:	ff 25 16 2e 00 00    	jmp    *0x2e16(%rip)        # 3f90 <fgets@GLIBC_2.2.5>
+    117a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001180 <strcmp@plt>:
+    1180:	f3 0f 1e fa          	endbr64
+    1184:	ff 25 0e 2e 00 00    	jmp    *0x2e0e(%rip)        # 3f98 <strcmp@GLIBC_2.2.5>
+    118a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001190 <time@plt>:
+    1190:	f3 0f 1e fa          	endbr64
+    1194:	ff 25 06 2e 00 00    	jmp    *0x2e06(%rip)        # 3fa0 <time@GLIBC_2.2.5>
+    119a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011a0 <malloc@plt>:
+    11a0:	f3 0f 1e fa          	endbr64
+    11a4:	ff 25 fe 2d 00 00    	jmp    *0x2dfe(%rip)        # 3fa8 <malloc@GLIBC_2.2.5>
+    11aa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011b0 <__strcpy_chk@plt>:
+    11b0:	f3 0f 1e fa          	endbr64
+    11b4:	ff 25 f6 2d 00 00    	jmp    *0x2df6(%rip)        # 3fb0 <__strcpy_chk@GLIBC_2.3.4>
+    11ba:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011c0 <__printf_chk@plt>:
+    11c0:	f3 0f 1e fa          	endbr64
+    11c4:	ff 25 ee 2d 00 00    	jmp    *0x2dee(%rip)        # 3fb8 <__printf_chk@GLIBC_2.3.4>
+    11ca:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011d0 <strtok@plt>:
+    11d0:	f3 0f 1e fa          	endbr64
+    11d4:	ff 25 e6 2d 00 00    	jmp    *0x2de6(%rip)        # 3fc0 <strtok@GLIBC_2.2.5>
+    11da:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011e0 <exit@plt>:
+    11e0:	f3 0f 1e fa          	endbr64
+    11e4:	ff 25 de 2d 00 00    	jmp    *0x2dde(%rip)        # 3fc8 <exit@GLIBC_2.2.5>
+    11ea:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011f0 <fwrite@plt>:
+    11f0:	f3 0f 1e fa          	endbr64
+    11f4:	ff 25 d6 2d 00 00    	jmp    *0x2dd6(%rip)        # 3fd0 <fwrite@GLIBC_2.2.5>
+    11fa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+Disassembly of section .text:
+
+0000000000001200 <_start>:
+    1200:	f3 0f 1e fa          	endbr64
+    1204:	31 ed                	xor    %ebp,%ebp
+    1206:	49 89 d1             	mov    %rdx,%r9
+    1209:	5e                   	pop    %rsi
+    120a:	48 89 e2             	mov    %rsp,%rdx
+    120d:	48 83 e4 f0          	and    $0xfffffffffffffff0,%rsp
+    1211:	50                   	push   %rax
+    1212:	54                   	push   %rsp
+    1213:	45 31 c0             	xor    %r8d,%r8d
+    1216:	31 c9                	xor    %ecx,%ecx
+    1218:	48 8d 3d d5 02 00 00 	lea    0x2d5(%rip),%rdi        # 14f4 <main>
+    121f:	ff 15 b3 2d 00 00    	call   *0x2db3(%rip)        # 3fd8 <__libc_start_main@GLIBC_2.34>
+    1225:	f4                   	hlt
+    1226:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+    122d:	00 00 00 
+
+0000000000001230 <deregister_tm_clones>:
+    1230:	48 8d 3d f1 2d 00 00 	lea    0x2df1(%rip),%rdi        # 4028 <__TMC_END__>
+    1237:	48 8d 05 ea 2d 00 00 	lea    0x2dea(%rip),%rax        # 4028 <__TMC_END__>
+    123e:	48 39 f8             	cmp    %rdi,%rax
+    1241:	74 15                	je     1258 <deregister_tm_clones+0x28>
+    1243:	48 8b 05 96 2d 00 00 	mov    0x2d96(%rip),%rax        # 3fe0 <_ITM_deregisterTMCloneTable@Base>
+    124a:	48 85 c0             	test   %rax,%rax
+    124d:	74 09                	je     1258 <deregister_tm_clones+0x28>
+    124f:	ff e0                	jmp    *%rax
+    1251:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+    1258:	c3                   	ret
+    1259:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+0000000000001260 <register_tm_clones>:
+    1260:	48 8d 3d c1 2d 00 00 	lea    0x2dc1(%rip),%rdi        # 4028 <__TMC_END__>
+    1267:	48 8d 35 ba 2d 00 00 	lea    0x2dba(%rip),%rsi        # 4028 <__TMC_END__>
+    126e:	48 29 fe             	sub    %rdi,%rsi
+    1271:	48 89 f0             	mov    %rsi,%rax
+    1274:	48 c1 ee 3f          	shr    $0x3f,%rsi
+    1278:	48 c1 f8 03          	sar    $0x3,%rax
+    127c:	48 01 c6             	add    %rax,%rsi
+    127f:	48 d1 fe             	sar    %rsi
+    1282:	74 14                	je     1298 <register_tm_clones+0x38>
+    1284:	48 8b 05 65 2d 00 00 	mov    0x2d65(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable@Base>
+    128b:	48 85 c0             	test   %rax,%rax
+    128e:	74 08                	je     1298 <register_tm_clones+0x38>
+    1290:	ff e0                	jmp    *%rax
+    1292:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+    1298:	c3                   	ret
+    1299:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000012a0 <__do_global_dtors_aux>:
+    12a0:	f3 0f 1e fa          	endbr64
+    12a4:	80 3d bd 2d 00 00 00 	cmpb   $0x0,0x2dbd(%rip)        # 4068 <completed.0>
+    12ab:	75 2b                	jne    12d8 <__do_global_dtors_aux+0x38>
+    12ad:	55                   	push   %rbp
+    12ae:	48 83 3d 42 2d 00 00 	cmpq   $0x0,0x2d42(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    12b5:	00 
+    12b6:	48 89 e5             	mov    %rsp,%rbp
+    12b9:	74 0c                	je     12c7 <__do_global_dtors_aux+0x27>
+    12bb:	48 8b 3d 46 2d 00 00 	mov    0x2d46(%rip),%rdi        # 4008 <__dso_handle>
+    12c2:	e8 49 fe ff ff       	call   1110 <__cxa_finalize@plt>
+    12c7:	e8 64 ff ff ff       	call   1230 <deregister_tm_clones>
+    12cc:	c6 05 95 2d 00 00 01 	movb   $0x1,0x2d95(%rip)        # 4068 <completed.0>
+    12d3:	5d                   	pop    %rbp
+    12d4:	c3                   	ret
+    12d5:	0f 1f 00             	nopl   (%rax)
+    12d8:	c3                   	ret
+    12d9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000012e0 <frame_dummy>:
+    12e0:	f3 0f 1e fa          	endbr64
+    12e4:	e9 77 ff ff ff       	jmp    1260 <register_tm_clones>
+
+00000000000012e9 <user_insert>:
+    12e9:	f3 0f 1e fa          	endbr64
+    12ed:	41 54                	push   %r12
+    12ef:	55                   	push   %rbp
+    12f0:	53                   	push   %rbx
+    12f1:	48 89 fd             	mov    %rdi,%rbp
+    12f4:	bf 10 00 00 00       	mov    $0x10,%edi
+    12f9:	e8 a2 fe ff ff       	call   11a0 <malloc@plt>
+    12fe:	48 85 c0             	test   %rax,%rax
+    1301:	74 4f                	je     1352 <user_insert+0x69>
+    1303:	48 89 c3             	mov    %rax,%rbx
+    1306:	48 89 ef             	mov    %rbp,%rdi
+    1309:	e8 42 fe ff ff       	call   1150 <strlen@plt>
+    130e:	4c 8d 60 01          	lea    0x1(%rax),%r12
+    1312:	4c 89 e7             	mov    %r12,%rdi
+    1315:	e8 86 fe ff ff       	call   11a0 <malloc@plt>
+    131a:	48 89 c7             	mov    %rax,%rdi
+    131d:	48 89 03             	mov    %rax,(%rbx)
+    1320:	48 85 c0             	test   %rax,%rax
+    1323:	74 54                	je     1379 <user_insert+0x90>
+    1325:	4c 89 e2             	mov    %r12,%rdx
+    1328:	48 89 ee             	mov    %rbp,%rsi
+    132b:	e8 80 fe ff ff       	call   11b0 <__strcpy_chk@plt>
+    1330:	bf 00 00 00 00       	mov    $0x0,%edi
+    1335:	e8 56 fe ff ff       	call   1190 <time@plt>
+    133a:	48 89 43 08          	mov    %rax,0x8(%rbx)
+    133e:	48 89 de             	mov    %rbx,%rsi
+    1341:	48 8d 3d c8 2c 00 00 	lea    0x2cc8(%rip),%rdi        # 4010 <queue>
+    1348:	e8 46 03 00 00       	call   1693 <list_insert_prev>
+    134d:	5b                   	pop    %rbx
+    134e:	5d                   	pop    %rbp
+    134f:	41 5c                	pop    %r12
+    1351:	c3                   	ret
+    1352:	48 8b 0d 07 2d 00 00 	mov    0x2d07(%rip),%rcx        # 4060 <stderr@GLIBC_2.2.5>
+    1359:	ba 0e 00 00 00       	mov    $0xe,%edx
+    135e:	be 01 00 00 00       	mov    $0x1,%esi
+    1363:	48 8d 3d 9a 0c 00 00 	lea    0xc9a(%rip),%rdi        # 2004 <_IO_stdin_used+0x4>
+    136a:	e8 81 fe ff ff       	call   11f0 <fwrite@plt>
+    136f:	bf 01 00 00 00       	mov    $0x1,%edi
+    1374:	e8 67 fe ff ff       	call   11e0 <exit@plt>
+    1379:	48 8b 0d e0 2c 00 00 	mov    0x2ce0(%rip),%rcx        # 4060 <stderr@GLIBC_2.2.5>
+    1380:	ba 0e 00 00 00       	mov    $0xe,%edx
+    1385:	be 01 00 00 00       	mov    $0x1,%esi
+    138a:	48 8d 3d 73 0c 00 00 	lea    0xc73(%rip),%rdi        # 2004 <_IO_stdin_used+0x4>
+    1391:	e8 5a fe ff ff       	call   11f0 <fwrite@plt>
+    1396:	bf 01 00 00 00       	mov    $0x1,%edi
+    139b:	e8 40 fe ff ff       	call   11e0 <exit@plt>
+
+00000000000013a0 <user_answer>:
+    13a0:	f3 0f 1e fa          	endbr64
+    13a4:	55                   	push   %rbp
+    13a5:	53                   	push   %rbx
+    13a6:	48 83 ec 08          	sub    $0x8,%rsp
+    13aa:	48 8d 3d 5f 2c 00 00 	lea    0x2c5f(%rip),%rdi        # 4010 <queue>
+    13b1:	e8 38 03 00 00       	call   16ee <list_empty>
+    13b6:	84 c0                	test   %al,%al
+    13b8:	75 25                	jne    13df <user_answer+0x3f>
+    13ba:	48 8b 3d 4f 2c 00 00 	mov    0x2c4f(%rip),%rdi        # 4010 <queue>
+    13c1:	48 8b 5f 10          	mov    0x10(%rdi),%rbx
+    13c5:	e8 00 03 00 00       	call   16ca <list_remove>
+    13ca:	48 8b 2b             	mov    (%rbx),%rbp
+    13cd:	48 89 df             	mov    %rbx,%rdi
+    13d0:	e8 5b fd ff ff       	call   1130 <free@plt>
+    13d5:	48 89 e8             	mov    %rbp,%rax
+    13d8:	48 83 c4 08          	add    $0x8,%rsp
+    13dc:	5b                   	pop    %rbx
+    13dd:	5d                   	pop    %rbp
+    13de:	c3                   	ret
+    13df:	bd 00 00 00 00       	mov    $0x0,%ebp
+    13e4:	eb ef                	jmp    13d5 <user_answer+0x35>
+
+00000000000013e6 <user_remove>:
+    13e6:	f3 0f 1e fa          	endbr64
+    13ea:	41 54                	push   %r12
+    13ec:	55                   	push   %rbp
+    13ed:	53                   	push   %rbx
+    13ee:	49 89 fc             	mov    %rdi,%r12
+    13f1:	48 8b 1d 18 2c 00 00 	mov    0x2c18(%rip),%rbx        # 4010 <queue>
+    13f8:	eb 03                	jmp    13fd <user_remove+0x17>
+    13fa:	48 8b 1b             	mov    (%rbx),%rbx
+    13fd:	48 8d 05 0c 2c 00 00 	lea    0x2c0c(%rip),%rax        # 4010 <queue>
+    1404:	48 39 c3             	cmp    %rax,%rbx
+    1407:	74 2d                	je     1436 <user_remove+0x50>
+    1409:	48 8b 6b 10          	mov    0x10(%rbx),%rbp
+    140d:	48 8b 7d 00          	mov    0x0(%rbp),%rdi
+    1411:	4c 89 e6             	mov    %r12,%rsi
+    1414:	e8 67 fd ff ff       	call   1180 <strcmp@plt>
+    1419:	85 c0                	test   %eax,%eax
+    141b:	75 dd                	jne    13fa <user_remove+0x14>
+    141d:	48 89 df             	mov    %rbx,%rdi
+    1420:	e8 a5 02 00 00       	call   16ca <list_remove>
+    1425:	48 8b 7d 00          	mov    0x0(%rbp),%rdi
+    1429:	e8 02 fd ff ff       	call   1130 <free@plt>
+    142e:	48 89 ef             	mov    %rbp,%rdi
+    1431:	e8 fa fc ff ff       	call   1130 <free@plt>
+    1436:	5b                   	pop    %rbx
+    1437:	5d                   	pop    %rbp
+    1438:	41 5c                	pop    %r12
+    143a:	c3                   	ret
+
+000000000000143b <user_delete_queue>:
+    143b:	f3 0f 1e fa          	endbr64
+    143f:	48 8b 3d ca 2b 00 00 	mov    0x2bca(%rip),%rdi        # 4010 <queue>
+    1446:	48 8d 05 c3 2b 00 00 	lea    0x2bc3(%rip),%rax        # 4010 <queue>
+    144d:	48 39 c7             	cmp    %rax,%rdi
+    1450:	74 38                	je     148a <user_delete_queue+0x4f>
+    1452:	55                   	push   %rbp
+    1453:	53                   	push   %rbx
+    1454:	48 83 ec 08          	sub    $0x8,%rsp
+    1458:	48 8b 5f 10          	mov    0x10(%rdi),%rbx
+    145c:	48 8b 2f             	mov    (%rdi),%rbp
+    145f:	e8 66 02 00 00       	call   16ca <list_remove>
+    1464:	48 8b 3b             	mov    (%rbx),%rdi
+    1467:	e8 c4 fc ff ff       	call   1130 <free@plt>
+    146c:	48 89 df             	mov    %rbx,%rdi
+    146f:	e8 bc fc ff ff       	call   1130 <free@plt>
+    1474:	48 89 ef             	mov    %rbp,%rdi
+    1477:	48 8d 05 92 2b 00 00 	lea    0x2b92(%rip),%rax        # 4010 <queue>
+    147e:	48 39 c5             	cmp    %rax,%rbp
+    1481:	75 d5                	jne    1458 <user_delete_queue+0x1d>
+    1483:	48 83 c4 08          	add    $0x8,%rsp
+    1487:	5b                   	pop    %rbx
+    1488:	5d                   	pop    %rbp
+    1489:	c3                   	ret
+    148a:	c3                   	ret
+
+000000000000148b <user_print>:
+    148b:	f3 0f 1e fa          	endbr64
+    148f:	55                   	push   %rbp
+    1490:	53                   	push   %rbx
+    1491:	48 83 ec 08          	sub    $0x8,%rsp
+    1495:	48 8b 1d 74 2b 00 00 	mov    0x2b74(%rip),%rbx        # 4010 <queue>
+    149c:	bd 01 00 00 00       	mov    $0x1,%ebp
+    14a1:	eb 25                	jmp    14c8 <user_print+0x3d>
+    14a3:	48 8b 43 10          	mov    0x10(%rbx),%rax
+    14a7:	48 8b 08             	mov    (%rax),%rcx
+    14aa:	89 ea                	mov    %ebp,%edx
+    14ac:	48 8d 35 60 0b 00 00 	lea    0xb60(%rip),%rsi        # 2013 <_IO_stdin_used+0x13>
+    14b3:	bf 02 00 00 00       	mov    $0x2,%edi
+    14b8:	b8 00 00 00 00       	mov    $0x0,%eax
+    14bd:	e8 fe fc ff ff       	call   11c0 <__printf_chk@plt>
+    14c2:	48 8b 1b             	mov    (%rbx),%rbx
+    14c5:	83 c5 01             	add    $0x1,%ebp
+    14c8:	48 8d 05 41 2b 00 00 	lea    0x2b41(%rip),%rax        # 4010 <queue>
+    14cf:	48 39 c3             	cmp    %rax,%rbx
+    14d2:	75 cf                	jne    14a3 <user_print+0x18>
+    14d4:	48 83 c4 08          	add    $0x8,%rsp
+    14d8:	5b                   	pop    %rbx
+    14d9:	5d                   	pop    %rbp
+    14da:	c3                   	ret
+
+00000000000014db <help>:
+    14db:	f3 0f 1e fa          	endbr64
+    14df:	48 83 ec 08          	sub    $0x8,%rsp
+    14e3:	48 8d 3d 56 0b 00 00 	lea    0xb56(%rip),%rdi        # 2040 <_IO_stdin_used+0x40>
+    14ea:	e8 51 fc ff ff       	call   1140 <puts@plt>
+    14ef:	48 83 c4 08          	add    $0x8,%rsp
+    14f3:	c3                   	ret
+
+00000000000014f4 <main>:
+    14f4:	f3 0f 1e fa          	endbr64
+    14f8:	55                   	push   %rbp
+    14f9:	53                   	push   %rbx
+    14fa:	48 83 ec 78          	sub    $0x78,%rsp
+    14fe:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    1505:	00 00 
+    1507:	48 89 44 24 68       	mov    %rax,0x68(%rsp)
+    150c:	31 c0                	xor    %eax,%eax
+    150e:	48 8b 0d 2b 2b 00 00 	mov    0x2b2b(%rip),%rcx        # 4040 <stdout@GLIBC_2.2.5>
+    1515:	ba 02 00 00 00       	mov    $0x2,%edx
+    151a:	be 01 00 00 00       	mov    $0x1,%esi
+    151f:	48 8d 3d f6 0a 00 00 	lea    0xaf6(%rip),%rdi        # 201c <_IO_stdin_used+0x1c>
+    1526:	e8 c5 fc ff ff       	call   11f0 <fwrite@plt>
+    152b:	48 89 e7             	mov    %rsp,%rdi
+    152e:	48 8b 15 1b 2b 00 00 	mov    0x2b1b(%rip),%rdx        # 4050 <stdin@GLIBC_2.2.5>
+    1535:	be 64 00 00 00       	mov    $0x64,%esi
+    153a:	e8 31 fc ff ff       	call   1170 <fgets@plt>
+    153f:	48 85 c0             	test   %rax,%rax
+    1542:	0f 84 c2 00 00 00    	je     160a <main+0x116>
+    1548:	48 89 e7             	mov    %rsp,%rdi
+    154b:	48 8d 35 cd 0a 00 00 	lea    0xacd(%rip),%rsi        # 201f <_IO_stdin_used+0x1f>
+    1552:	e8 79 fc ff ff       	call   11d0 <strtok@plt>
+    1557:	48 89 c3             	mov    %rax,%rbx
+    155a:	48 85 c0             	test   %rax,%rax
+    155d:	74 af                	je     150e <main+0x1a>
+    155f:	48 8d 35 b9 0a 00 00 	lea    0xab9(%rip),%rsi        # 201f <_IO_stdin_used+0x1f>
+    1566:	bf 00 00 00 00       	mov    $0x0,%edi
+    156b:	e8 60 fc ff ff       	call   11d0 <strtok@plt>
+    1570:	48 89 c5             	mov    %rax,%rbp
+    1573:	e8 a8 fb ff ff       	call   1120 <__ctype_toupper_loc@plt>
+    1578:	48 89 c2             	mov    %rax,%rdx
+    157b:	48 0f be 03          	movsbq (%rbx),%rax
+    157f:	48 c1 e0 02          	shl    $0x2,%rax
+    1583:	48 03 02             	add    (%rdx),%rax
+    1586:	8b 00                	mov    (%rax),%eax
+    1588:	83 f8 4c             	cmp    $0x4c,%eax
+    158b:	0f 84 ac 00 00 00    	je     163d <main+0x149>
+    1591:	7f 52                	jg     15e5 <main+0xf1>
+    1593:	83 f8 44             	cmp    $0x44,%eax
+    1596:	0f 84 94 00 00 00    	je     1630 <main+0x13c>
+    159c:	83 f8 48             	cmp    $0x48,%eax
+    159f:	0f 84 81 00 00 00    	je     1626 <main+0x132>
+    15a5:	83 f8 41             	cmp    $0x41,%eax
+    15a8:	0f 85 60 ff ff ff    	jne    150e <main+0x1a>
+    15ae:	e8 ed fd ff ff       	call   13a0 <user_answer>
+    15b3:	48 89 c3             	mov    %rax,%rbx
+    15b6:	48 85 c0             	test   %rax,%rax
+    15b9:	0f 84 88 00 00 00    	je     1647 <main+0x153>
+    15bf:	48 89 c2             	mov    %rax,%rdx
+    15c2:	48 8d 35 64 0a 00 00 	lea    0xa64(%rip),%rsi        # 202d <_IO_stdin_used+0x2d>
+    15c9:	bf 02 00 00 00       	mov    $0x2,%edi
+    15ce:	b8 00 00 00 00       	mov    $0x0,%eax
+    15d3:	e8 e8 fb ff ff       	call   11c0 <__printf_chk@plt>
+    15d8:	48 89 df             	mov    %rbx,%rdi
+    15db:	e8 50 fb ff ff       	call   1130 <free@plt>
+    15e0:	e9 29 ff ff ff       	jmp    150e <main+0x1a>
+    15e5:	83 f8 53             	cmp    $0x53,%eax
+    15e8:	74 1b                	je     1605 <main+0x111>
+    15ea:	83 f8 73             	cmp    $0x73,%eax
+    15ed:	74 16                	je     1605 <main+0x111>
+    15ef:	83 f8 4e             	cmp    $0x4e,%eax
+    15f2:	0f 85 16 ff ff ff    	jne    150e <main+0x1a>
+    15f8:	48 89 ef             	mov    %rbp,%rdi
+    15fb:	e8 e9 fc ff ff       	call   12e9 <user_insert>
+    1600:	e9 09 ff ff ff       	jmp    150e <main+0x1a>
+    1605:	e8 31 fe ff ff       	call   143b <user_delete_queue>
+    160a:	48 8b 44 24 68       	mov    0x68(%rsp),%rax
+    160f:	64 48 2b 04 25 28 00 	sub    %fs:0x28,%rax
+    1616:	00 00 
+    1618:	75 3e                	jne    1658 <main+0x164>
+    161a:	b8 01 00 00 00       	mov    $0x1,%eax
+    161f:	48 83 c4 78          	add    $0x78,%rsp
+    1623:	5b                   	pop    %rbx
+    1624:	5d                   	pop    %rbp
+    1625:	c3                   	ret
+    1626:	e8 b0 fe ff ff       	call   14db <help>
+    162b:	e9 de fe ff ff       	jmp    150e <main+0x1a>
+    1630:	48 89 ef             	mov    %rbp,%rdi
+    1633:	e8 ae fd ff ff       	call   13e6 <user_remove>
+    1638:	e9 d1 fe ff ff       	jmp    150e <main+0x1a>
+    163d:	e8 49 fe ff ff       	call   148b <user_print>
+    1642:	e9 c7 fe ff ff       	jmp    150e <main+0x1a>
+    1647:	48 8d 3d d4 09 00 00 	lea    0x9d4(%rip),%rdi        # 2022 <_IO_stdin_used+0x22>
+    164e:	e8 ed fa ff ff       	call   1140 <puts@plt>
+    1653:	e9 b6 fe ff ff       	jmp    150e <main+0x1a>
+    1658:	e8 03 fb ff ff       	call   1160 <__stack_chk_fail@plt>
+
+000000000000165d <list_insert_next>:
+    165d:	f3 0f 1e fa          	endbr64
+    1661:	55                   	push   %rbp
+    1662:	53                   	push   %rbx
+    1663:	48 83 ec 08          	sub    $0x8,%rsp
+    1667:	48 89 fb             	mov    %rdi,%rbx
+    166a:	48 89 f5             	mov    %rsi,%rbp
+    166d:	bf 18 00 00 00       	mov    $0x18,%edi
+    1672:	e8 29 fb ff ff       	call   11a0 <malloc@plt>
+    1677:	48 89 68 10          	mov    %rbp,0x10(%rax)
+    167b:	48 8b 13             	mov    (%rbx),%rdx
+    167e:	48 89 10             	mov    %rdx,(%rax)
+    1681:	48 89 58 08          	mov    %rbx,0x8(%rax)
+    1685:	48 89 42 08          	mov    %rax,0x8(%rdx)
+    1689:	48 89 03             	mov    %rax,(%rbx)
+    168c:	48 83 c4 08          	add    $0x8,%rsp
+    1690:	5b                   	pop    %rbx
+    1691:	5d                   	pop    %rbp
+    1692:	c3                   	ret
+
+0000000000001693 <list_insert_prev>:
+    1693:	f3 0f 1e fa          	endbr64
+    1697:	55                   	push   %rbp
+    1698:	53                   	push   %rbx
+    1699:	48 83 ec 08          	sub    $0x8,%rsp
+    169d:	48 89 fb             	mov    %rdi,%rbx
+    16a0:	48 89 f5             	mov    %rsi,%rbp
+    16a3:	bf 18 00 00 00       	mov    $0x18,%edi
+    16a8:	e8 f3 fa ff ff       	call   11a0 <malloc@plt>
+    16ad:	48 89 68 10          	mov    %rbp,0x10(%rax)
+    16b1:	48 89 18             	mov    %rbx,(%rax)
+    16b4:	48 8b 53 08          	mov    0x8(%rbx),%rdx
+    16b8:	48 89 50 08          	mov    %rdx,0x8(%rax)
+    16bc:	48 89 02             	mov    %rax,(%rdx)
+    16bf:	48 89 43 08          	mov    %rax,0x8(%rbx)
+    16c3:	48 83 c4 08          	add    $0x8,%rsp
+    16c7:	5b                   	pop    %rbx
+    16c8:	5d                   	pop    %rbp
+    16c9:	c3                   	ret
+
+00000000000016ca <list_remove>:
+    16ca:	f3 0f 1e fa          	endbr64
+    16ce:	48 83 ec 08          	sub    $0x8,%rsp
+    16d2:	48 8b 57 08          	mov    0x8(%rdi),%rdx
+    16d6:	48 8b 07             	mov    (%rdi),%rax
+    16d9:	48 89 02             	mov    %rax,(%rdx)
+    16dc:	48 8b 57 08          	mov    0x8(%rdi),%rdx
+    16e0:	48 89 50 08          	mov    %rdx,0x8(%rax)
+    16e4:	e8 47 fa ff ff       	call   1130 <free@plt>
+    16e9:	48 83 c4 08          	add    $0x8,%rsp
+    16ed:	c3                   	ret
+
+00000000000016ee <list_empty>:
+    16ee:	f3 0f 1e fa          	endbr64
+    16f2:	48 39 3f             	cmp    %rdi,(%rdi)
+    16f5:	0f 94 c0             	sete   %al
+    16f8:	c3                   	ret
+
+Disassembly of section .fini:
+
+00000000000016fc <_fini>:
+    16fc:	f3 0f 1e fa          	endbr64
+    1700:	48 83 ec 08          	sub    $0x8,%rsp
+    1704:	48 83 c4 08          	add    $0x8,%rsp
+    1708:	c3                   	ret
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ objdump -d a.out 
+[?2004l]133;C\]666;vte.shell.preexec!\
+a.out:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+0000000000001000 <_init>:
+    1000:	f3 0f 1e fa          	endbr64
+    1004:	48 83 ec 08          	sub    $0x8,%rsp
+    1008:	48 8b 05 d9 2f 00 00 	mov    0x2fd9(%rip),%rax        # 3fe8 <__gmon_start__@Base>
+    100f:	48 85 c0             	test   %rax,%rax
+    1012:	74 02                	je     1016 <_init+0x16>
+    1014:	ff d0                	call   *%rax
+    1016:	48 83 c4 08          	add    $0x8,%rsp
+    101a:	c3                   	ret
+
+Disassembly of section .plt:
+
+0000000000001020 <.plt>:
+    1020:	ff 35 32 2f 00 00    	push   0x2f32(%rip)        # 3f58 <_GLOBAL_OFFSET_TABLE_+0x8>
+    1026:	ff 25 34 2f 00 00    	jmp    *0x2f34(%rip)        # 3f60 <_GLOBAL_OFFSET_TABLE_+0x10>
+    102c:	0f 1f 40 00          	nopl   0x0(%rax)
+    1030:	f3 0f 1e fa          	endbr64
+    1034:	68 00 00 00 00       	push   $0x0
+    1039:	e9 e2 ff ff ff       	jmp    1020 <_init+0x20>
+    103e:	66 90                	xchg   %ax,%ax
+    1040:	f3 0f 1e fa          	endbr64
+    1044:	68 01 00 00 00       	push   $0x1
+    1049:	e9 d2 ff ff ff       	jmp    1020 <_init+0x20>
+    104e:	66 90                	xchg   %ax,%ax
+    1050:	f3 0f 1e fa          	endbr64
+    1054:	68 02 00 00 00       	push   $0x2
+    1059:	e9 c2 ff ff ff       	jmp    1020 <_init+0x20>
+    105e:	66 90                	xchg   %ax,%ax
+    1060:	f3 0f 1e fa          	endbr64
+    1064:	68 03 00 00 00       	push   $0x3
+    1069:	e9 b2 ff ff ff       	jmp    1020 <_init+0x20>
+    106e:	66 90                	xchg   %ax,%ax
+    1070:	f3 0f 1e fa          	endbr64
+    1074:	68 04 00 00 00       	push   $0x4
+    1079:	e9 a2 ff ff ff       	jmp    1020 <_init+0x20>
+    107e:	66 90                	xchg   %ax,%ax
+    1080:	f3 0f 1e fa          	endbr64
+    1084:	68 05 00 00 00       	push   $0x5
+    1089:	e9 92 ff ff ff       	jmp    1020 <_init+0x20>
+    108e:	66 90                	xchg   %ax,%ax
+    1090:	f3 0f 1e fa          	endbr64
+    1094:	68 06 00 00 00       	push   $0x6
+    1099:	e9 82 ff ff ff       	jmp    1020 <_init+0x20>
+    109e:	66 90                	xchg   %ax,%ax
+    10a0:	f3 0f 1e fa          	endbr64
+    10a4:	68 07 00 00 00       	push   $0x7
+    10a9:	e9 72 ff ff ff       	jmp    1020 <_init+0x20>
+    10ae:	66 90                	xchg   %ax,%ax
+    10b0:	f3 0f 1e fa          	endbr64
+    10b4:	68 08 00 00 00       	push   $0x8
+    10b9:	e9 62 ff ff ff       	jmp    1020 <_init+0x20>
+    10be:	66 90                	xchg   %ax,%ax
+    10c0:	f3 0f 1e fa          	endbr64
+    10c4:	68 09 00 00 00       	push   $0x9
+    10c9:	e9 52 ff ff ff       	jmp    1020 <_init+0x20>
+    10ce:	66 90                	xchg   %ax,%ax
+    10d0:	f3 0f 1e fa          	endbr64
+    10d4:	68 0a 00 00 00       	push   $0xa
+    10d9:	e9 42 ff ff ff       	jmp    1020 <_init+0x20>
+    10de:	66 90                	xchg   %ax,%ax
+    10e0:	f3 0f 1e fa          	endbr64
+    10e4:	68 0b 00 00 00       	push   $0xb
+    10e9:	e9 32 ff ff ff       	jmp    1020 <_init+0x20>
+    10ee:	66 90                	xchg   %ax,%ax
+    10f0:	f3 0f 1e fa          	endbr64
+    10f4:	68 0c 00 00 00       	push   $0xc
+    10f9:	e9 22 ff ff ff       	jmp    1020 <_init+0x20>
+    10fe:	66 90                	xchg   %ax,%ax
+    1100:	f3 0f 1e fa          	endbr64
+    1104:	68 0d 00 00 00       	push   $0xd
+    1109:	e9 12 ff ff ff       	jmp    1020 <_init+0x20>
+    110e:	66 90                	xchg   %ax,%ax
+
+Disassembly of section .plt.got:
+
+0000000000001110 <__cxa_finalize@plt>:
+    1110:	f3 0f 1e fa          	endbr64
+    1114:	ff 25 de 2e 00 00    	jmp    *0x2ede(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    111a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+Disassembly of section .plt.sec:
+
+0000000000001120 <__ctype_toupper_loc@plt>:
+    1120:	f3 0f 1e fa          	endbr64
+    1124:	ff 25 3e 2e 00 00    	jmp    *0x2e3e(%rip)        # 3f68 <__ctype_toupper_loc@GLIBC_2.3>
+    112a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001130 <free@plt>:
+    1130:	f3 0f 1e fa          	endbr64
+    1134:	ff 25 36 2e 00 00    	jmp    *0x2e36(%rip)        # 3f70 <free@GLIBC_2.2.5>
+    113a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001140 <puts@plt>:
+    1140:	f3 0f 1e fa          	endbr64
+    1144:	ff 25 2e 2e 00 00    	jmp    *0x2e2e(%rip)        # 3f78 <puts@GLIBC_2.2.5>
+    114a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001150 <strlen@plt>:
+    1150:	f3 0f 1e fa          	endbr64
+    1154:	ff 25 26 2e 00 00    	jmp    *0x2e26(%rip)        # 3f80 <strlen@GLIBC_2.2.5>
+    115a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001160 <__stack_chk_fail@plt>:
+    1160:	f3 0f 1e fa          	endbr64
+    1164:	ff 25 1e 2e 00 00    	jmp    *0x2e1e(%rip)        # 3f88 <__stack_chk_fail@GLIBC_2.4>
+    116a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001170 <fgets@plt>:
+    1170:	f3 0f 1e fa          	endbr64
+    1174:	ff 25 16 2e 00 00    	jmp    *0x2e16(%rip)        # 3f90 <fgets@GLIBC_2.2.5>
+    117a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001180 <strcmp@plt>:
+    1180:	f3 0f 1e fa          	endbr64
+    1184:	ff 25 0e 2e 00 00    	jmp    *0x2e0e(%rip)        # 3f98 <strcmp@GLIBC_2.2.5>
+    118a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001190 <time@plt>:
+    1190:	f3 0f 1e fa          	endbr64
+    1194:	ff 25 06 2e 00 00    	jmp    *0x2e06(%rip)        # 3fa0 <time@GLIBC_2.2.5>
+    119a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011a0 <malloc@plt>:
+    11a0:	f3 0f 1e fa          	endbr64
+    11a4:	ff 25 fe 2d 00 00    	jmp    *0x2dfe(%rip)        # 3fa8 <malloc@GLIBC_2.2.5>
+    11aa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011b0 <__strcpy_chk@plt>:
+    11b0:	f3 0f 1e fa          	endbr64
+    11b4:	ff 25 f6 2d 00 00    	jmp    *0x2df6(%rip)        # 3fb0 <__strcpy_chk@GLIBC_2.3.4>
+    11ba:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011c0 <__printf_chk@plt>:
+    11c0:	f3 0f 1e fa          	endbr64
+    11c4:	ff 25 ee 2d 00 00    	jmp    *0x2dee(%rip)        # 3fb8 <__printf_chk@GLIBC_2.3.4>
+    11ca:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011d0 <strtok@plt>:
+    11d0:	f3 0f 1e fa          	endbr64
+    11d4:	ff 25 e6 2d 00 00    	jmp    *0x2de6(%rip)        # 3fc0 <strtok@GLIBC_2.2.5>
+    11da:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011e0 <exit@plt>:
+    11e0:	f3 0f 1e fa          	endbr64
+    11e4:	ff 25 de 2d 00 00    	jmp    *0x2dde(%rip)        # 3fc8 <exit@GLIBC_2.2.5>
+    11ea:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011f0 <fwrite@plt>:
+    11f0:	f3 0f 1e fa          	endbr64
+    11f4:	ff 25 d6 2d 00 00    	jmp    *0x2dd6(%rip)        # 3fd0 <fwrite@GLIBC_2.2.5>
+    11fa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+Disassembly of section .text:
+
+0000000000001200 <_start>:
+    1200:	f3 0f 1e fa          	endbr64
+    1204:	31 ed                	xor    %ebp,%ebp
+    1206:	49 89 d1             	mov    %rdx,%r9
+    1209:	5e                   	pop    %rsi
+    120a:	48 89 e2             	mov    %rsp,%rdx
+    120d:	48 83 e4 f0          	and    $0xfffffffffffffff0,%rsp
+    1211:	50                   	push   %rax
+    1212:	54                   	push   %rsp
+    1213:	45 31 c0             	xor    %r8d,%r8d
+    1216:	31 c9                	xor    %ecx,%ecx
+    1218:	48 8d 3d d5 02 00 00 	lea    0x2d5(%rip),%rdi        # 14f4 <main>
+    121f:	ff 15 b3 2d 00 00    	call   *0x2db3(%rip)        # 3fd8 <__libc_start_main@GLIBC_2.34>
+    1225:	f4                   	hlt
+    1226:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+    122d:	00 00 00 
+
+0000000000001230 <deregister_tm_clones>:
+    1230:	48 8d 3d f1 2d 00 00 	lea    0x2df1(%rip),%rdi        # 4028 <__TMC_END__>
+    1237:	48 8d 05 ea 2d 00 00 	lea    0x2dea(%rip),%rax        # 4028 <__TMC_END__>
+    123e:	48 39 f8             	cmp    %rdi,%rax
+    1241:	74 15                	je     1258 <deregister_tm_clones+0x28>
+    1243:	48 8b 05 96 2d 00 00 	mov    0x2d96(%rip),%rax        # 3fe0 <_ITM_deregisterTMCloneTable@Base>
+    124a:	48 85 c0             	test   %rax,%rax
+    124d:	74 09                	je     1258 <deregister_tm_clones+0x28>
+    124f:	ff e0                	jmp    *%rax
+    1251:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+    1258:	c3                   	ret
+    1259:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+0000000000001260 <register_tm_clones>:
+    1260:	48 8d 3d c1 2d 00 00 	lea    0x2dc1(%rip),%rdi        # 4028 <__TMC_END__>
+    1267:	48 8d 35 ba 2d 00 00 	lea    0x2dba(%rip),%rsi        # 4028 <__TMC_END__>
+    126e:	48 29 fe             	sub    %rdi,%rsi
+    1271:	48 89 f0             	mov    %rsi,%rax
+    1274:	48 c1 ee 3f          	shr    $0x3f,%rsi
+    1278:	48 c1 f8 03          	sar    $0x3,%rax
+    127c:	48 01 c6             	add    %rax,%rsi
+    127f:	48 d1 fe             	sar    %rsi
+    1282:	74 14                	je     1298 <register_tm_clones+0x38>
+    1284:	48 8b 05 65 2d 00 00 	mov    0x2d65(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable@Base>
+    128b:	48 85 c0             	test   %rax,%rax
+    128e:	74 08                	je     1298 <register_tm_clones+0x38>
+    1290:	ff e0                	jmp    *%rax
+    1292:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+    1298:	c3                   	ret
+    1299:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000012a0 <__do_global_dtors_aux>:
+    12a0:	f3 0f 1e fa          	endbr64
+    12a4:	80 3d bd 2d 00 00 00 	cmpb   $0x0,0x2dbd(%rip)        # 4068 <completed.0>
+    12ab:	75 2b                	jne    12d8 <__do_global_dtors_aux+0x38>
+    12ad:	55                   	push   %rbp
+    12ae:	48 83 3d 42 2d 00 00 	cmpq   $0x0,0x2d42(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    12b5:	00 
+    12b6:	48 89 e5             	mov    %rsp,%rbp
+    12b9:	74 0c                	je     12c7 <__do_global_dtors_aux+0x27>
+    12bb:	48 8b 3d 46 2d 00 00 	mov    0x2d46(%rip),%rdi        # 4008 <__dso_handle>
+    12c2:	e8 49 fe ff ff       	call   1110 <__cxa_finalize@plt>
+    12c7:	e8 64 ff ff ff       	call   1230 <deregister_tm_clones>
+    12cc:	c6 05 95 2d 00 00 01 	movb   $0x1,0x2d95(%rip)        # 4068 <completed.0>
+    12d3:	5d                   	pop    %rbp
+    12d4:	c3                   	ret
+    12d5:	0f 1f 00             	nopl   (%rax)
+    12d8:	c3                   	ret
+    12d9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000012e0 <frame_dummy>:
+    12e0:	f3 0f 1e fa          	endbr64
+    12e4:	e9 77 ff ff ff       	jmp    1260 <register_tm_clones>
+
+00000000000012e9 <user_insert>:
+    12e9:	f3 0f 1e fa          	endbr64
+    12ed:	41 54                	push   %r12
+    12ef:	55                   	push   %rbp
+    12f0:	53                   	push   %rbx
+    12f1:	48 89 fd             	mov    %rdi,%rbp
+    12f4:	bf 10 00 00 00       	mov    $0x10,%edi
+    12f9:	e8 a2 fe ff ff       	call   11a0 <malloc@plt>
+    12fe:	48 85 c0             	test   %rax,%rax
+    1301:	74 4f                	je     1352 <user_insert+0x69>
+    1303:	48 89 c3             	mov    %rax,%rbx
+    1306:	48 89 ef             	mov    %rbp,%rdi
+    1309:	e8 42 fe ff ff       	call   1150 <strlen@plt>
+    130e:	4c 8d 60 01          	lea    0x1(%rax),%r12
+    1312:	4c 89 e7             	mov    %r12,%rdi
+    1315:	e8 86 fe ff ff       	call   11a0 <malloc@plt>
+    131a:	48 89 c7             	mov    %rax,%rdi
+    131d:	48 89 03             	mov    %rax,(%rbx)
+    1320:	48 85 c0             	test   %rax,%rax
+    1323:	74 54                	je     1379 <user_insert+0x90>
+    1325:	4c 89 e2             	mov    %r12,%rdx
+    1328:	48 89 ee             	mov    %rbp,%rsi
+    132b:	e8 80 fe ff ff       	call   11b0 <__strcpy_chk@plt>
+    1330:	bf 00 00 00 00       	mov    $0x0,%edi
+    1335:	e8 56 fe ff ff       	call   1190 <time@plt>
+    133a:	48 89 43 08          	mov    %rax,0x8(%rbx)
+    133e:	48 89 de             	mov    %rbx,%rsi
+    1341:	48 8d 3d c8 2c 00 00 	lea    0x2cc8(%rip),%rdi        # 4010 <queue>
+    1348:	e8 46 03 00 00       	call   1693 <list_insert_prev>
+    134d:	5b                   	pop    %rbx
+    134e:	5d                   	pop    %rbp
+    134f:	41 5c                	pop    %r12
+    1351:	c3                   	ret
+    1352:	48 8b 0d 07 2d 00 00 	mov    0x2d07(%rip),%rcx        # 4060 <stderr@GLIBC_2.2.5>
+    1359:	ba 0e 00 00 00       	mov    $0xe,%edx
+    135e:	be 01 00 00 00       	mov    $0x1,%esi
+    1363:	48 8d 3d 9a 0c 00 00 	lea    0xc9a(%rip),%rdi        # 2004 <_IO_stdin_used+0x4>
+    136a:	e8 81 fe ff ff       	call   11f0 <fwrite@plt>
+    136f:	bf 01 00 00 00       	mov    $0x1,%edi
+    1374:	e8 67 fe ff ff       	call   11e0 <exit@plt>
+    1379:	48 8b 0d e0 2c 00 00 	mov    0x2ce0(%rip),%rcx        # 4060 <stderr@GLIBC_2.2.5>
+    1380:	ba 0e 00 00 00       	mov    $0xe,%edx
+    1385:	be 01 00 00 00       	mov    $0x1,%esi
+    138a:	48 8d 3d 73 0c 00 00 	lea    0xc73(%rip),%rdi        # 2004 <_IO_stdin_used+0x4>
+    1391:	e8 5a fe ff ff       	call   11f0 <fwrite@plt>
+    1396:	bf 01 00 00 00       	mov    $0x1,%edi
+    139b:	e8 40 fe ff ff       	call   11e0 <exit@plt>
+
+00000000000013a0 <user_answer>:
+    13a0:	f3 0f 1e fa          	endbr64
+    13a4:	55                   	push   %rbp
+    13a5:	53                   	push   %rbx
+    13a6:	48 83 ec 08          	sub    $0x8,%rsp
+    13aa:	48 8d 3d 5f 2c 00 00 	lea    0x2c5f(%rip),%rdi        # 4010 <queue>
+    13b1:	e8 38 03 00 00       	call   16ee <list_empty>
+    13b6:	84 c0                	test   %al,%al
+    13b8:	75 25                	jne    13df <user_answer+0x3f>
+    13ba:	48 8b 3d 4f 2c 00 00 	mov    0x2c4f(%rip),%rdi        # 4010 <queue>
+    13c1:	48 8b 5f 10          	mov    0x10(%rdi),%rbx
+    13c5:	e8 00 03 00 00       	call   16ca <list_remove>
+    13ca:	48 8b 2b             	mov    (%rbx),%rbp
+    13cd:	48 89 df             	mov    %rbx,%rdi
+    13d0:	e8 5b fd ff ff       	call   1130 <free@plt>
+    13d5:	48 89 e8             	mov    %rbp,%rax
+    13d8:	48 83 c4 08          	add    $0x8,%rsp
+    13dc:	5b                   	pop    %rbx
+    13dd:	5d                   	pop    %rbp
+    13de:	c3                   	ret
+    13df:	bd 00 00 00 00       	mov    $0x0,%ebp
+    13e4:	eb ef                	jmp    13d5 <user_answer+0x35>
+
+00000000000013e6 <user_remove>:
+    13e6:	f3 0f 1e fa          	endbr64
+    13ea:	41 54                	push   %r12
+    13ec:	55                   	push   %rbp
+    13ed:	53                   	push   %rbx
+    13ee:	49 89 fc             	mov    %rdi,%r12
+    13f1:	48 8b 1d 18 2c 00 00 	mov    0x2c18(%rip),%rbx        # 4010 <queue>
+    13f8:	eb 03                	jmp    13fd <user_remove+0x17>
+    13fa:	48 8b 1b             	mov    (%rbx),%rbx
+    13fd:	48 8d 05 0c 2c 00 00 	lea    0x2c0c(%rip),%rax        # 4010 <queue>
+    1404:	48 39 c3             	cmp    %rax,%rbx
+    1407:	74 2d                	je     1436 <user_remove+0x50>
+    1409:	48 8b 6b 10          	mov    0x10(%rbx),%rbp
+    140d:	48 8b 7d 00          	mov    0x0(%rbp),%rdi
+    1411:	4c 89 e6             	mov    %r12,%rsi
+    1414:	e8 67 fd ff ff       	call   1180 <strcmp@plt>
+    1419:	85 c0                	test   %eax,%eax
+    141b:	75 dd                	jne    13fa <user_remove+0x14>
+    141d:	48 89 df             	mov    %rbx,%rdi
+    1420:	e8 a5 02 00 00       	call   16ca <list_remove>
+    1425:	48 8b 7d 00          	mov    0x0(%rbp),%rdi
+    1429:	e8 02 fd ff ff       	call   1130 <free@plt>
+    142e:	48 89 ef             	mov    %rbp,%rdi
+    1431:	e8 fa fc ff ff       	call   1130 <free@plt>
+    1436:	5b                   	pop    %rbx
+    1437:	5d                   	pop    %rbp
+    1438:	41 5c                	pop    %r12
+    143a:	c3                   	ret
+
+000000000000143b <user_delete_queue>:
+    143b:	f3 0f 1e fa          	endbr64
+    143f:	48 8b 3d ca 2b 00 00 	mov    0x2bca(%rip),%rdi        # 4010 <queue>
+    1446:	48 8d 05 c3 2b 00 00 	lea    0x2bc3(%rip),%rax        # 4010 <queue>
+    144d:	48 39 c7             	cmp    %rax,%rdi
+    1450:	74 38                	je     148a <user_delete_queue+0x4f>
+    1452:	55                   	push   %rbp
+    1453:	53                   	push   %rbx
+    1454:	48 83 ec 08          	sub    $0x8,%rsp
+    1458:	48 8b 5f 10          	mov    0x10(%rdi),%rbx
+    145c:	48 8b 2f             	mov    (%rdi),%rbp
+    145f:	e8 66 02 00 00       	call   16ca <list_remove>
+    1464:	48 8b 3b             	mov    (%rbx),%rdi
+    1467:	e8 c4 fc ff ff       	call   1130 <free@plt>
+    146c:	48 89 df             	mov    %rbx,%rdi
+    146f:	e8 bc fc ff ff       	call   1130 <free@plt>
+    1474:	48 89 ef             	mov    %rbp,%rdi
+    1477:	48 8d 05 92 2b 00 00 	lea    0x2b92(%rip),%rax        # 4010 <queue>
+    147e:	48 39 c5             	cmp    %rax,%rbp
+    1481:	75 d5                	jne    1458 <user_delete_queue+0x1d>
+    1483:	48 83 c4 08          	add    $0x8,%rsp
+    1487:	5b                   	pop    %rbx
+    1488:	5d                   	pop    %rbp
+    1489:	c3                   	ret
+    148a:	c3                   	ret
+
+000000000000148b <user_print>:
+    148b:	f3 0f 1e fa          	endbr64
+    148f:	55                   	push   %rbp
+    1490:	53                   	push   %rbx
+    1491:	48 83 ec 08          	sub    $0x8,%rsp
+    1495:	48 8b 1d 74 2b 00 00 	mov    0x2b74(%rip),%rbx        # 4010 <queue>
+    149c:	bd 01 00 00 00       	mov    $0x1,%ebp
+    14a1:	eb 25                	jmp    14c8 <user_print+0x3d>
+    14a3:	48 8b 43 10          	mov    0x10(%rbx),%rax
+    14a7:	48 8b 08             	mov    (%rax),%rcx
+    14aa:	89 ea                	mov    %ebp,%edx
+    14ac:	48 8d 35 60 0b 00 00 	lea    0xb60(%rip),%rsi        # 2013 <_IO_stdin_used+0x13>
+    14b3:	bf 02 00 00 00       	mov    $0x2,%edi
+    14b8:	b8 00 00 00 00       	mov    $0x0,%eax
+    14bd:	e8 fe fc ff ff       	call   11c0 <__printf_chk@plt>
+    14c2:	48 8b 1b             	mov    (%rbx),%rbx
+    14c5:	83 c5 01             	add    $0x1,%ebp
+    14c8:	48 8d 05 41 2b 00 00 	lea    0x2b41(%rip),%rax        # 4010 <queue>
+    14cf:	48 39 c3             	cmp    %rax,%rbx
+    14d2:	75 cf                	jne    14a3 <user_print+0x18>
+    14d4:	48 83 c4 08          	add    $0x8,%rsp
+    14d8:	5b                   	pop    %rbx
+    14d9:	5d                   	pop    %rbp
+    14da:	c3                   	ret
+
+00000000000014db <help>:
+    14db:	f3 0f 1e fa          	endbr64
+    14df:	48 83 ec 08          	sub    $0x8,%rsp
+    14e3:	48 8d 3d 56 0b 00 00 	lea    0xb56(%rip),%rdi        # 2040 <_IO_stdin_used+0x40>
+    14ea:	e8 51 fc ff ff       	call   1140 <puts@plt>
+    14ef:	48 83 c4 08          	add    $0x8,%rsp
+    14f3:	c3                   	ret
+
+00000000000014f4 <main>:
+    14f4:	f3 0f 1e fa          	endbr64
+    14f8:	55                   	push   %rbp
+    14f9:	53                   	push   %rbx
+    14fa:	48 83 ec 78          	sub    $0x78,%rsp
+    14fe:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    1505:	00 00 
+    1507:	48 89 44 24 68       	mov    %rax,0x68(%rsp)
+    150c:	31 c0                	xor    %eax,%eax
+    150e:	48 8b 0d 2b 2b 00 00 	mov    0x2b2b(%rip),%rcx        # 4040 <stdout@GLIBC_2.2.5>
+    1515:	ba 02 00 00 00       	mov    $0x2,%edx
+    151a:	be 01 00 00 00       	mov    $0x1,%esi
+    151f:	48 8d 3d f6 0a 00 00 	lea    0xaf6(%rip),%rdi        # 201c <_IO_stdin_used+0x1c>
+    1526:	e8 c5 fc ff ff       	call   11f0 <fwrite@plt>
+    152b:	48 89 e7             	mov    %rsp,%rdi
+    152e:	48 8b 15 1b 2b 00 00 	mov    0x2b1b(%rip),%rdx        # 4050 <stdin@GLIBC_2.2.5>
+    1535:	be 64 00 00 00       	mov    $0x64,%esi
+    153a:	e8 31 fc ff ff       	call   1170 <fgets@plt>
+    153f:	48 85 c0             	test   %rax,%rax
+    1542:	0f 84 c2 00 00 00    	je     160a <main+0x116>
+    1548:	48 89 e7             	mov    %rsp,%rdi
+    154b:	48 8d 35 cd 0a 00 00 	lea    0xacd(%rip),%rsi        # 201f <_IO_stdin_used+0x1f>
+    1552:	e8 79 fc ff ff       	call   11d0 <strtok@plt>
+    1557:	48 89 c3             	mov    %rax,%rbx
+    155a:	48 85 c0             	test   %rax,%rax
+    155d:	74 af                	je     150e <main+0x1a>
+    155f:	48 8d 35 b9 0a 00 00 	lea    0xab9(%rip),%rsi        # 201f <_IO_stdin_used+0x1f>
+    1566:	bf 00 00 00 00       	mov    $0x0,%edi
+    156b:	e8 60 fc ff ff       	call   11d0 <strtok@plt>
+    1570:	48 89 c5             	mov    %rax,%rbp
+    1573:	e8 a8 fb ff ff       	call   1120 <__ctype_toupper_loc@plt>
+    1578:	48 89 c2             	mov    %rax,%rdx
+    157b:	48 0f be 03          	movsbq (%rbx),%rax
+    157f:	48 c1 e0 02          	shl    $0x2,%rax
+    1583:	48 03 02             	add    (%rdx),%rax
+    1586:	8b 00                	mov    (%rax),%eax
+    1588:	83 f8 4c             	cmp    $0x4c,%eax
+    158b:	0f 84 ac 00 00 00    	je     163d <main+0x149>
+    1591:	7f 52                	jg     15e5 <main+0xf1>
+    1593:	83 f8 44             	cmp    $0x44,%eax
+    1596:	0f 84 94 00 00 00    	je     1630 <main+0x13c>
+    159c:	83 f8 48             	cmp    $0x48,%eax
+    159f:	0f 84 81 00 00 00    	je     1626 <main+0x132>
+    15a5:	83 f8 41             	cmp    $0x41,%eax
+    15a8:	0f 85 60 ff ff ff    	jne    150e <main+0x1a>
+    15ae:	e8 ed fd ff ff       	call   13a0 <user_answer>
+    15b3:	48 89 c3             	mov    %rax,%rbx
+    15b6:	48 85 c0             	test   %rax,%rax
+    15b9:	0f 84 88 00 00 00    	je     1647 <main+0x153>
+    15bf:	48 89 c2             	mov    %rax,%rdx
+    15c2:	48 8d 35 64 0a 00 00 	lea    0xa64(%rip),%rsi        # 202d <_IO_stdin_used+0x2d>
+    15c9:	bf 02 00 00 00       	mov    $0x2,%edi
+    15ce:	b8 00 00 00 00       	mov    $0x0,%eax
+    15d3:	e8 e8 fb ff ff       	call   11c0 <__printf_chk@plt>
+    15d8:	48 89 df             	mov    %rbx,%rdi
+    15db:	e8 50 fb ff ff       	call   1130 <free@plt>
+    15e0:	e9 29 ff ff ff       	jmp    150e <main+0x1a>
+    15e5:	83 f8 53             	cmp    $0x53,%eax
+    15e8:	74 1b                	je     1605 <main+0x111>
+    15ea:	83 f8 73             	cmp    $0x73,%eax
+    15ed:	74 16                	je     1605 <main+0x111>
+    15ef:	83 f8 4e             	cmp    $0x4e,%eax
+    15f2:	0f 85 16 ff ff ff    	jne    150e <main+0x1a>
+    15f8:	48 89 ef             	mov    %rbp,%rdi
+    15fb:	e8 e9 fc ff ff       	call   12e9 <user_insert>
+    1600:	e9 09 ff ff ff       	jmp    150e <main+0x1a>
+    1605:	e8 31 fe ff ff       	call   143b <user_delete_queue>
+    160a:	48 8b 44 24 68       	mov    0x68(%rsp),%rax
+    160f:	64 48 2b 04 25 28 00 	sub    %fs:0x28,%rax
+    1616:	00 00 
+    1618:	75 3e                	jne    1658 <main+0x164>
+    161a:	b8 01 00 00 00       	mov    $0x1,%eax
+    161f:	48 83 c4 78          	add    $0x78,%rsp
+    1623:	5b                   	pop    %rbx
+    1624:	5d                   	pop    %rbp
+    1625:	c3                   	ret
+    1626:	e8 b0 fe ff ff       	call   14db <help>
+    162b:	e9 de fe ff ff       	jmp    150e <main+0x1a>
+    1630:	48 89 ef             	mov    %rbp,%rdi
+    1633:	e8 ae fd ff ff       	call   13e6 <user_remove>
+    1638:	e9 d1 fe ff ff       	jmp    150e <main+0x1a>
+    163d:	e8 49 fe ff ff       	call   148b <user_print>
+    1642:	e9 c7 fe ff ff       	jmp    150e <main+0x1a>
+    1647:	48 8d 3d d4 09 00 00 	lea    0x9d4(%rip),%rdi        # 2022 <_IO_stdin_used+0x22>
+    164e:	e8 ed fa ff ff       	call   1140 <puts@plt>
+    1653:	e9 b6 fe ff ff       	jmp    150e <main+0x1a>
+    1658:	e8 03 fb ff ff       	call   1160 <__stack_chk_fail@plt>
+
+000000000000165d <list_insert_next>:
+    165d:	f3 0f 1e fa          	endbr64
+    1661:	55                   	push   %rbp
+    1662:	53                   	push   %rbx
+    1663:	48 83 ec 08          	sub    $0x8,%rsp
+    1667:	48 89 fb             	mov    %rdi,%rbx
+    166a:	48 89 f5             	mov    %rsi,%rbp
+    166d:	bf 18 00 00 00       	mov    $0x18,%edi
+    1672:	e8 29 fb ff ff       	call   11a0 <malloc@plt>
+    1677:	48 89 68 10          	mov    %rbp,0x10(%rax)
+    167b:	48 8b 13             	mov    (%rbx),%rdx
+    167e:	48 89 10             	mov    %rdx,(%rax)
+    1681:	48 89 58 08          	mov    %rbx,0x8(%rax)
+    1685:	48 89 42 08          	mov    %rax,0x8(%rdx)
+    1689:	48 89 03             	mov    %rax,(%rbx)
+    168c:	48 83 c4 08          	add    $0x8,%rsp
+    1690:	5b                   	pop    %rbx
+    1691:	5d                   	pop    %rbp
+    1692:	c3                   	ret
+
+0000000000001693 <list_insert_prev>:
+    1693:	f3 0f 1e fa          	endbr64
+    1697:	55                   	push   %rbp
+    1698:	53                   	push   %rbx
+    1699:	48 83 ec 08          	sub    $0x8,%rsp
+    169d:	48 89 fb             	mov    %rdi,%rbx
+    16a0:	48 89 f5             	mov    %rsi,%rbp
+    16a3:	bf 18 00 00 00       	mov    $0x18,%edi
+    16a8:	e8 f3 fa ff ff       	call   11a0 <malloc@plt>
+    16ad:	48 89 68 10          	mov    %rbp,0x10(%rax)
+    16b1:	48 89 18             	mov    %rbx,(%rax)
+    16b4:	48 8b 53 08          	mov    0x8(%rbx),%rdx
+    16b8:	48 89 50 08          	mov    %rdx,0x8(%rax)
+    16bc:	48 89 02             	mov    %rax,(%rdx)
+    16bf:	48 89 43 08          	mov    %rax,0x8(%rbx)
+    16c3:	48 83 c4 08          	add    $0x8,%rsp
+    16c7:	5b                   	pop    %rbx
+    16c8:	5d                   	pop    %rbp
+    16c9:	c3                   	ret
+
+00000000000016ca <list_remove>:
+    16ca:	f3 0f 1e fa          	endbr64
+    16ce:	48 83 ec 08          	sub    $0x8,%rsp
+    16d2:	48 8b 57 08          	mov    0x8(%rdi),%rdx
+    16d6:	48 8b 07             	mov    (%rdi),%rax
+    16d9:	48 89 02             	mov    %rax,(%rdx)
+    16dc:	48 8b 57 08          	mov    0x8(%rdi),%rdx
+    16e0:	48 89 50 08          	mov    %rdx,0x8(%rax)
+    16e4:	e8 47 fa ff ff       	call   1130 <free@plt>
+    16e9:	48 83 c4 08          	add    $0x8,%rsp
+    16ed:	c3                   	ret
+
+00000000000016ee <list_empty>:
+    16ee:	f3 0f 1e fa          	endbr64
+    16f2:	48 39 3f             	cmp    %rdi,(%rdi)
+    16f5:	0f 94 c0             	sete   %al
+    16f8:	c3                   	ret
+
+Disassembly of section .fini:
+
+00000000000016fc <_fini>:
+    16fc:	f3 0f 1e fa          	endbr64
+    1700:	48 83 ec 08          	sub    $0x8,%rsp
+    1704:	48 83 c4 08          	add    $0x8,%rsp
+    1708:	c3                   	ret
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ objdump -d a.out [C[C[C[C[C[C[C[C[C[C[Kobjdump -d a.out 
+[?2004l]133;C\]666;vte.shell.preexec!\
+a.out:     file format elf64-x86-64
+
+
+Disassembly of section .init:
+
+0000000000001000 <_init>:
+    1000:	f3 0f 1e fa          	endbr64
+    1004:	48 83 ec 08          	sub    $0x8,%rsp
+    1008:	48 8b 05 d9 2f 00 00 	mov    0x2fd9(%rip),%rax        # 3fe8 <__gmon_start__@Base>
+    100f:	48 85 c0             	test   %rax,%rax
+    1012:	74 02                	je     1016 <_init+0x16>
+    1014:	ff d0                	call   *%rax
+    1016:	48 83 c4 08          	add    $0x8,%rsp
+    101a:	c3                   	ret
+
+Disassembly of section .plt:
+
+0000000000001020 <.plt>:
+    1020:	ff 35 32 2f 00 00    	push   0x2f32(%rip)        # 3f58 <_GLOBAL_OFFSET_TABLE_+0x8>
+    1026:	ff 25 34 2f 00 00    	jmp    *0x2f34(%rip)        # 3f60 <_GLOBAL_OFFSET_TABLE_+0x10>
+    102c:	0f 1f 40 00          	nopl   0x0(%rax)
+    1030:	f3 0f 1e fa          	endbr64
+    1034:	68 00 00 00 00       	push   $0x0
+    1039:	e9 e2 ff ff ff       	jmp    1020 <_init+0x20>
+    103e:	66 90                	xchg   %ax,%ax
+    1040:	f3 0f 1e fa          	endbr64
+    1044:	68 01 00 00 00       	push   $0x1
+    1049:	e9 d2 ff ff ff       	jmp    1020 <_init+0x20>
+    104e:	66 90                	xchg   %ax,%ax
+    1050:	f3 0f 1e fa          	endbr64
+    1054:	68 02 00 00 00       	push   $0x2
+    1059:	e9 c2 ff ff ff       	jmp    1020 <_init+0x20>
+    105e:	66 90                	xchg   %ax,%ax
+    1060:	f3 0f 1e fa          	endbr64
+    1064:	68 03 00 00 00       	push   $0x3
+    1069:	e9 b2 ff ff ff       	jmp    1020 <_init+0x20>
+    106e:	66 90                	xchg   %ax,%ax
+    1070:	f3 0f 1e fa          	endbr64
+    1074:	68 04 00 00 00       	push   $0x4
+    1079:	e9 a2 ff ff ff       	jmp    1020 <_init+0x20>
+    107e:	66 90                	xchg   %ax,%ax
+    1080:	f3 0f 1e fa          	endbr64
+    1084:	68 05 00 00 00       	push   $0x5
+    1089:	e9 92 ff ff ff       	jmp    1020 <_init+0x20>
+    108e:	66 90                	xchg   %ax,%ax
+    1090:	f3 0f 1e fa          	endbr64
+    1094:	68 06 00 00 00       	push   $0x6
+    1099:	e9 82 ff ff ff       	jmp    1020 <_init+0x20>
+    109e:	66 90                	xchg   %ax,%ax
+    10a0:	f3 0f 1e fa          	endbr64
+    10a4:	68 07 00 00 00       	push   $0x7
+    10a9:	e9 72 ff ff ff       	jmp    1020 <_init+0x20>
+    10ae:	66 90                	xchg   %ax,%ax
+    10b0:	f3 0f 1e fa          	endbr64
+    10b4:	68 08 00 00 00       	push   $0x8
+    10b9:	e9 62 ff ff ff       	jmp    1020 <_init+0x20>
+    10be:	66 90                	xchg   %ax,%ax
+    10c0:	f3 0f 1e fa          	endbr64
+    10c4:	68 09 00 00 00       	push   $0x9
+    10c9:	e9 52 ff ff ff       	jmp    1020 <_init+0x20>
+    10ce:	66 90                	xchg   %ax,%ax
+    10d0:	f3 0f 1e fa          	endbr64
+    10d4:	68 0a 00 00 00       	push   $0xa
+    10d9:	e9 42 ff ff ff       	jmp    1020 <_init+0x20>
+    10de:	66 90                	xchg   %ax,%ax
+    10e0:	f3 0f 1e fa          	endbr64
+    10e4:	68 0b 00 00 00       	push   $0xb
+    10e9:	e9 32 ff ff ff       	jmp    1020 <_init+0x20>
+    10ee:	66 90                	xchg   %ax,%ax
+    10f0:	f3 0f 1e fa          	endbr64
+    10f4:	68 0c 00 00 00       	push   $0xc
+    10f9:	e9 22 ff ff ff       	jmp    1020 <_init+0x20>
+    10fe:	66 90                	xchg   %ax,%ax
+    1100:	f3 0f 1e fa          	endbr64
+    1104:	68 0d 00 00 00       	push   $0xd
+    1109:	e9 12 ff ff ff       	jmp    1020 <_init+0x20>
+    110e:	66 90                	xchg   %ax,%ax
+
+Disassembly of section .plt.got:
+
+0000000000001110 <__cxa_finalize@plt>:
+    1110:	f3 0f 1e fa          	endbr64
+    1114:	ff 25 de 2e 00 00    	jmp    *0x2ede(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    111a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+Disassembly of section .plt.sec:
+
+0000000000001120 <__ctype_toupper_loc@plt>:
+    1120:	f3 0f 1e fa          	endbr64
+    1124:	ff 25 3e 2e 00 00    	jmp    *0x2e3e(%rip)        # 3f68 <__ctype_toupper_loc@GLIBC_2.3>
+    112a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001130 <free@plt>:
+    1130:	f3 0f 1e fa          	endbr64
+    1134:	ff 25 36 2e 00 00    	jmp    *0x2e36(%rip)        # 3f70 <free@GLIBC_2.2.5>
+    113a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001140 <puts@plt>:
+    1140:	f3 0f 1e fa          	endbr64
+    1144:	ff 25 2e 2e 00 00    	jmp    *0x2e2e(%rip)        # 3f78 <puts@GLIBC_2.2.5>
+    114a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001150 <strlen@plt>:
+    1150:	f3 0f 1e fa          	endbr64
+    1154:	ff 25 26 2e 00 00    	jmp    *0x2e26(%rip)        # 3f80 <strlen@GLIBC_2.2.5>
+    115a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001160 <__stack_chk_fail@plt>:
+    1160:	f3 0f 1e fa          	endbr64
+    1164:	ff 25 1e 2e 00 00    	jmp    *0x2e1e(%rip)        # 3f88 <__stack_chk_fail@GLIBC_2.4>
+    116a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001170 <fgets@plt>:
+    1170:	f3 0f 1e fa          	endbr64
+    1174:	ff 25 16 2e 00 00    	jmp    *0x2e16(%rip)        # 3f90 <fgets@GLIBC_2.2.5>
+    117a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001180 <strcmp@plt>:
+    1180:	f3 0f 1e fa          	endbr64
+    1184:	ff 25 0e 2e 00 00    	jmp    *0x2e0e(%rip)        # 3f98 <strcmp@GLIBC_2.2.5>
+    118a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+0000000000001190 <time@plt>:
+    1190:	f3 0f 1e fa          	endbr64
+    1194:	ff 25 06 2e 00 00    	jmp    *0x2e06(%rip)        # 3fa0 <time@GLIBC_2.2.5>
+    119a:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011a0 <malloc@plt>:
+    11a0:	f3 0f 1e fa          	endbr64
+    11a4:	ff 25 fe 2d 00 00    	jmp    *0x2dfe(%rip)        # 3fa8 <malloc@GLIBC_2.2.5>
+    11aa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011b0 <__strcpy_chk@plt>:
+    11b0:	f3 0f 1e fa          	endbr64
+    11b4:	ff 25 f6 2d 00 00    	jmp    *0x2df6(%rip)        # 3fb0 <__strcpy_chk@GLIBC_2.3.4>
+    11ba:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011c0 <__printf_chk@plt>:
+    11c0:	f3 0f 1e fa          	endbr64
+    11c4:	ff 25 ee 2d 00 00    	jmp    *0x2dee(%rip)        # 3fb8 <__printf_chk@GLIBC_2.3.4>
+    11ca:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011d0 <strtok@plt>:
+    11d0:	f3 0f 1e fa          	endbr64
+    11d4:	ff 25 e6 2d 00 00    	jmp    *0x2de6(%rip)        # 3fc0 <strtok@GLIBC_2.2.5>
+    11da:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011e0 <exit@plt>:
+    11e0:	f3 0f 1e fa          	endbr64
+    11e4:	ff 25 de 2d 00 00    	jmp    *0x2dde(%rip)        # 3fc8 <exit@GLIBC_2.2.5>
+    11ea:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+00000000000011f0 <fwrite@plt>:
+    11f0:	f3 0f 1e fa          	endbr64
+    11f4:	ff 25 d6 2d 00 00    	jmp    *0x2dd6(%rip)        # 3fd0 <fwrite@GLIBC_2.2.5>
+    11fa:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+
+Disassembly of section .text:
+
+0000000000001200 <_start>:
+    1200:	f3 0f 1e fa          	endbr64
+    1204:	31 ed                	xor    %ebp,%ebp
+    1206:	49 89 d1             	mov    %rdx,%r9
+    1209:	5e                   	pop    %rsi
+    120a:	48 89 e2             	mov    %rsp,%rdx
+    120d:	48 83 e4 f0          	and    $0xfffffffffffffff0,%rsp
+    1211:	50                   	push   %rax
+    1212:	54                   	push   %rsp
+    1213:	45 31 c0             	xor    %r8d,%r8d
+    1216:	31 c9                	xor    %ecx,%ecx
+    1218:	48 8d 3d d5 02 00 00 	lea    0x2d5(%rip),%rdi        # 14f4 <main>
+    121f:	ff 15 b3 2d 00 00    	call   *0x2db3(%rip)        # 3fd8 <__libc_start_main@GLIBC_2.34>
+    1225:	f4                   	hlt
+    1226:	66 2e 0f 1f 84 00 00 	cs nopw 0x0(%rax,%rax,1)
+    122d:	00 00 00 
+
+0000000000001230 <deregister_tm_clones>:
+    1230:	48 8d 3d f1 2d 00 00 	lea    0x2df1(%rip),%rdi        # 4028 <__TMC_END__>
+    1237:	48 8d 05 ea 2d 00 00 	lea    0x2dea(%rip),%rax        # 4028 <__TMC_END__>
+    123e:	48 39 f8             	cmp    %rdi,%rax
+    1241:	74 15                	je     1258 <deregister_tm_clones+0x28>
+    1243:	48 8b 05 96 2d 00 00 	mov    0x2d96(%rip),%rax        # 3fe0 <_ITM_deregisterTMCloneTable@Base>
+    124a:	48 85 c0             	test   %rax,%rax
+    124d:	74 09                	je     1258 <deregister_tm_clones+0x28>
+    124f:	ff e0                	jmp    *%rax
+    1251:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+    1258:	c3                   	ret
+    1259:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+0000000000001260 <register_tm_clones>:
+    1260:	48 8d 3d c1 2d 00 00 	lea    0x2dc1(%rip),%rdi        # 4028 <__TMC_END__>
+    1267:	48 8d 35 ba 2d 00 00 	lea    0x2dba(%rip),%rsi        # 4028 <__TMC_END__>
+    126e:	48 29 fe             	sub    %rdi,%rsi
+    1271:	48 89 f0             	mov    %rsi,%rax
+    1274:	48 c1 ee 3f          	shr    $0x3f,%rsi
+    1278:	48 c1 f8 03          	sar    $0x3,%rax
+    127c:	48 01 c6             	add    %rax,%rsi
+    127f:	48 d1 fe             	sar    %rsi
+    1282:	74 14                	je     1298 <register_tm_clones+0x38>
+    1284:	48 8b 05 65 2d 00 00 	mov    0x2d65(%rip),%rax        # 3ff0 <_ITM_registerTMCloneTable@Base>
+    128b:	48 85 c0             	test   %rax,%rax
+    128e:	74 08                	je     1298 <register_tm_clones+0x38>
+    1290:	ff e0                	jmp    *%rax
+    1292:	66 0f 1f 44 00 00    	nopw   0x0(%rax,%rax,1)
+    1298:	c3                   	ret
+    1299:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000012a0 <__do_global_dtors_aux>:
+    12a0:	f3 0f 1e fa          	endbr64
+    12a4:	80 3d bd 2d 00 00 00 	cmpb   $0x0,0x2dbd(%rip)        # 4068 <completed.0>
+    12ab:	75 2b                	jne    12d8 <__do_global_dtors_aux+0x38>
+    12ad:	55                   	push   %rbp
+    12ae:	48 83 3d 42 2d 00 00 	cmpq   $0x0,0x2d42(%rip)        # 3ff8 <__cxa_finalize@GLIBC_2.2.5>
+    12b5:	00 
+    12b6:	48 89 e5             	mov    %rsp,%rbp
+    12b9:	74 0c                	je     12c7 <__do_global_dtors_aux+0x27>
+    12bb:	48 8b 3d 46 2d 00 00 	mov    0x2d46(%rip),%rdi        # 4008 <__dso_handle>
+    12c2:	e8 49 fe ff ff       	call   1110 <__cxa_finalize@plt>
+    12c7:	e8 64 ff ff ff       	call   1230 <deregister_tm_clones>
+    12cc:	c6 05 95 2d 00 00 01 	movb   $0x1,0x2d95(%rip)        # 4068 <completed.0>
+    12d3:	5d                   	pop    %rbp
+    12d4:	c3                   	ret
+    12d5:	0f 1f 00             	nopl   (%rax)
+    12d8:	c3                   	ret
+    12d9:	0f 1f 80 00 00 00 00 	nopl   0x0(%rax)
+
+00000000000012e0 <frame_dummy>:
+    12e0:	f3 0f 1e fa          	endbr64
+    12e4:	e9 77 ff ff ff       	jmp    1260 <register_tm_clones>
+
+00000000000012e9 <user_insert>:
+    12e9:	f3 0f 1e fa          	endbr64
+    12ed:	41 54                	push   %r12
+    12ef:	55                   	push   %rbp
+    12f0:	53                   	push   %rbx
+    12f1:	48 89 fd             	mov    %rdi,%rbp
+    12f4:	bf 10 00 00 00       	mov    $0x10,%edi
+    12f9:	e8 a2 fe ff ff       	call   11a0 <malloc@plt>
+    12fe:	48 85 c0             	test   %rax,%rax
+    1301:	74 4f                	je     1352 <user_insert+0x69>
+    1303:	48 89 c3             	mov    %rax,%rbx
+    1306:	48 89 ef             	mov    %rbp,%rdi
+    1309:	e8 42 fe ff ff       	call   1150 <strlen@plt>
+    130e:	4c 8d 60 01          	lea    0x1(%rax),%r12
+    1312:	4c 89 e7             	mov    %r12,%rdi
+    1315:	e8 86 fe ff ff       	call   11a0 <malloc@plt>
+    131a:	48 89 c7             	mov    %rax,%rdi
+    131d:	48 89 03             	mov    %rax,(%rbx)
+    1320:	48 85 c0             	test   %rax,%rax
+    1323:	74 54                	je     1379 <user_insert+0x90>
+    1325:	4c 89 e2             	mov    %r12,%rdx
+    1328:	48 89 ee             	mov    %rbp,%rsi
+    132b:	e8 80 fe ff ff       	call   11b0 <__strcpy_chk@plt>
+    1330:	bf 00 00 00 00       	mov    $0x0,%edi
+    1335:	e8 56 fe ff ff       	call   1190 <time@plt>
+    133a:	48 89 43 08          	mov    %rax,0x8(%rbx)
+    133e:	48 89 de             	mov    %rbx,%rsi
+    1341:	48 8d 3d c8 2c 00 00 	lea    0x2cc8(%rip),%rdi        # 4010 <queue>
+    1348:	e8 46 03 00 00       	call   1693 <list_insert_prev>
+    134d:	5b                   	pop    %rbx
+    134e:	5d                   	pop    %rbp
+    134f:	41 5c                	pop    %r12
+    1351:	c3                   	ret
+    1352:	48 8b 0d 07 2d 00 00 	mov    0x2d07(%rip),%rcx        # 4060 <stderr@GLIBC_2.2.5>
+    1359:	ba 0e 00 00 00       	mov    $0xe,%edx
+    135e:	be 01 00 00 00       	mov    $0x1,%esi
+    1363:	48 8d 3d 9a 0c 00 00 	lea    0xc9a(%rip),%rdi        # 2004 <_IO_stdin_used+0x4>
+    136a:	e8 81 fe ff ff       	call   11f0 <fwrite@plt>
+    136f:	bf 01 00 00 00       	mov    $0x1,%edi
+    1374:	e8 67 fe ff ff       	call   11e0 <exit@plt>
+    1379:	48 8b 0d e0 2c 00 00 	mov    0x2ce0(%rip),%rcx        # 4060 <stderr@GLIBC_2.2.5>
+    1380:	ba 0e 00 00 00       	mov    $0xe,%edx
+    1385:	be 01 00 00 00       	mov    $0x1,%esi
+    138a:	48 8d 3d 73 0c 00 00 	lea    0xc73(%rip),%rdi        # 2004 <_IO_stdin_used+0x4>
+    1391:	e8 5a fe ff ff       	call   11f0 <fwrite@plt>
+    1396:	bf 01 00 00 00       	mov    $0x1,%edi
+    139b:	e8 40 fe ff ff       	call   11e0 <exit@plt>
+
+00000000000013a0 <user_answer>:
+    13a0:	f3 0f 1e fa          	endbr64
+    13a4:	55                   	push   %rbp
+    13a5:	53                   	push   %rbx
+    13a6:	48 83 ec 08          	sub    $0x8,%rsp
+    13aa:	48 8d 3d 5f 2c 00 00 	lea    0x2c5f(%rip),%rdi        # 4010 <queue>
+    13b1:	e8 38 03 00 00       	call   16ee <list_empty>
+    13b6:	84 c0                	test   %al,%al
+    13b8:	75 25                	jne    13df <user_answer+0x3f>
+    13ba:	48 8b 3d 4f 2c 00 00 	mov    0x2c4f(%rip),%rdi        # 4010 <queue>
+    13c1:	48 8b 5f 10          	mov    0x10(%rdi),%rbx
+    13c5:	e8 00 03 00 00       	call   16ca <list_remove>
+    13ca:	48 8b 2b             	mov    (%rbx),%rbp
+    13cd:	48 89 df             	mov    %rbx,%rdi
+    13d0:	e8 5b fd ff ff       	call   1130 <free@plt>
+    13d5:	48 89 e8             	mov    %rbp,%rax
+    13d8:	48 83 c4 08          	add    $0x8,%rsp
+    13dc:	5b                   	pop    %rbx
+    13dd:	5d                   	pop    %rbp
+    13de:	c3                   	ret
+    13df:	bd 00 00 00 00       	mov    $0x0,%ebp
+    13e4:	eb ef                	jmp    13d5 <user_answer+0x35>
+
+00000000000013e6 <user_remove>:
+    13e6:	f3 0f 1e fa          	endbr64
+    13ea:	41 54                	push   %r12
+    13ec:	55                   	push   %rbp
+    13ed:	53                   	push   %rbx
+    13ee:	49 89 fc             	mov    %rdi,%r12
+    13f1:	48 8b 1d 18 2c 00 00 	mov    0x2c18(%rip),%rbx        # 4010 <queue>
+    13f8:	eb 03                	jmp    13fd <user_remove+0x17>
+    13fa:	48 8b 1b             	mov    (%rbx),%rbx
+    13fd:	48 8d 05 0c 2c 00 00 	lea    0x2c0c(%rip),%rax        # 4010 <queue>
+    1404:	48 39 c3             	cmp    %rax,%rbx
+    1407:	74 2d                	je     1436 <user_remove+0x50>
+    1409:	48 8b 6b 10          	mov    0x10(%rbx),%rbp
+    140d:	48 8b 7d 00          	mov    0x0(%rbp),%rdi
+    1411:	4c 89 e6             	mov    %r12,%rsi
+    1414:	e8 67 fd ff ff       	call   1180 <strcmp@plt>
+    1419:	85 c0                	test   %eax,%eax
+    141b:	75 dd                	jne    13fa <user_remove+0x14>
+    141d:	48 89 df             	mov    %rbx,%rdi
+    1420:	e8 a5 02 00 00       	call   16ca <list_remove>
+    1425:	48 8b 7d 00          	mov    0x0(%rbp),%rdi
+    1429:	e8 02 fd ff ff       	call   1130 <free@plt>
+    142e:	48 89 ef             	mov    %rbp,%rdi
+    1431:	e8 fa fc ff ff       	call   1130 <free@plt>
+    1436:	5b                   	pop    %rbx
+    1437:	5d                   	pop    %rbp
+    1438:	41 5c                	pop    %r12
+    143a:	c3                   	ret
+
+000000000000143b <user_delete_queue>:
+    143b:	f3 0f 1e fa          	endbr64
+    143f:	48 8b 3d ca 2b 00 00 	mov    0x2bca(%rip),%rdi        # 4010 <queue>
+    1446:	48 8d 05 c3 2b 00 00 	lea    0x2bc3(%rip),%rax        # 4010 <queue>
+    144d:	48 39 c7             	cmp    %rax,%rdi
+    1450:	74 38                	je     148a <user_delete_queue+0x4f>
+    1452:	55                   	push   %rbp
+    1453:	53                   	push   %rbx
+    1454:	48 83 ec 08          	sub    $0x8,%rsp
+    1458:	48 8b 5f 10          	mov    0x10(%rdi),%rbx
+    145c:	48 8b 2f             	mov    (%rdi),%rbp
+    145f:	e8 66 02 00 00       	call   16ca <list_remove>
+    1464:	48 8b 3b             	mov    (%rbx),%rdi
+    1467:	e8 c4 fc ff ff       	call   1130 <free@plt>
+    146c:	48 89 df             	mov    %rbx,%rdi
+    146f:	e8 bc fc ff ff       	call   1130 <free@plt>
+    1474:	48 89 ef             	mov    %rbp,%rdi
+    1477:	48 8d 05 92 2b 00 00 	lea    0x2b92(%rip),%rax        # 4010 <queue>
+    147e:	48 39 c5             	cmp    %rax,%rbp
+    1481:	75 d5                	jne    1458 <user_delete_queue+0x1d>
+    1483:	48 83 c4 08          	add    $0x8,%rsp
+    1487:	5b                   	pop    %rbx
+    1488:	5d                   	pop    %rbp
+    1489:	c3                   	ret
+    148a:	c3                   	ret
+
+000000000000148b <user_print>:
+    148b:	f3 0f 1e fa          	endbr64
+    148f:	55                   	push   %rbp
+    1490:	53                   	push   %rbx
+    1491:	48 83 ec 08          	sub    $0x8,%rsp
+    1495:	48 8b 1d 74 2b 00 00 	mov    0x2b74(%rip),%rbx        # 4010 <queue>
+    149c:	bd 01 00 00 00       	mov    $0x1,%ebp
+    14a1:	eb 25                	jmp    14c8 <user_print+0x3d>
+    14a3:	48 8b 43 10          	mov    0x10(%rbx),%rax
+    14a7:	48 8b 08             	mov    (%rax),%rcx
+    14aa:	89 ea                	mov    %ebp,%edx
+    14ac:	48 8d 35 60 0b 00 00 	lea    0xb60(%rip),%rsi        # 2013 <_IO_stdin_used+0x13>
+    14b3:	bf 02 00 00 00       	mov    $0x2,%edi
+    14b8:	b8 00 00 00 00       	mov    $0x0,%eax
+    14bd:	e8 fe fc ff ff       	call   11c0 <__printf_chk@plt>
+    14c2:	48 8b 1b             	mov    (%rbx),%rbx
+    14c5:	83 c5 01             	add    $0x1,%ebp
+    14c8:	48 8d 05 41 2b 00 00 	lea    0x2b41(%rip),%rax        # 4010 <queue>
+    14cf:	48 39 c3             	cmp    %rax,%rbx
+    14d2:	75 cf                	jne    14a3 <user_print+0x18>
+    14d4:	48 83 c4 08          	add    $0x8,%rsp
+    14d8:	5b                   	pop    %rbx
+    14d9:	5d                   	pop    %rbp
+    14da:	c3                   	ret
+
+00000000000014db <help>:
+    14db:	f3 0f 1e fa          	endbr64
+    14df:	48 83 ec 08          	sub    $0x8,%rsp
+    14e3:	48 8d 3d 56 0b 00 00 	lea    0xb56(%rip),%rdi        # 2040 <_IO_stdin_used+0x40>
+    14ea:	e8 51 fc ff ff       	call   1140 <puts@plt>
+    14ef:	48 83 c4 08          	add    $0x8,%rsp
+    14f3:	c3                   	ret
+
+00000000000014f4 <main>:
+    14f4:	f3 0f 1e fa          	endbr64
+    14f8:	55                   	push   %rbp
+    14f9:	53                   	push   %rbx
+    14fa:	48 83 ec 78          	sub    $0x78,%rsp
+    14fe:	64 48 8b 04 25 28 00 	mov    %fs:0x28,%rax
+    1505:	00 00 
+    1507:	48 89 44 24 68       	mov    %rax,0x68(%rsp)
+    150c:	31 c0                	xor    %eax,%eax
+    150e:	48 8b 0d 2b 2b 00 00 	mov    0x2b2b(%rip),%rcx        # 4040 <stdout@GLIBC_2.2.5>
+    1515:	ba 02 00 00 00       	mov    $0x2,%edx
+    151a:	be 01 00 00 00       	mov    $0x1,%esi
+    151f:	48 8d 3d f6 0a 00 00 	lea    0xaf6(%rip),%rdi        # 201c <_IO_stdin_used+0x1c>
+    1526:	e8 c5 fc ff ff       	call   11f0 <fwrite@plt>
+    152b:	48 89 e7             	mov    %rsp,%rdi
+    152e:	48 8b 15 1b 2b 00 00 	mov    0x2b1b(%rip),%rdx        # 4050 <stdin@GLIBC_2.2.5>
+    1535:	be 64 00 00 00       	mov    $0x64,%esi
+    153a:	e8 31 fc ff ff       	call   1170 <fgets@plt>
+    153f:	48 85 c0             	test   %rax,%rax
+    1542:	0f 84 c2 00 00 00    	je     160a <main+0x116>
+    1548:	48 89 e7             	mov    %rsp,%rdi
+    154b:	48 8d 35 cd 0a 00 00 	lea    0xacd(%rip),%rsi        # 201f <_IO_stdin_used+0x1f>
+    1552:	e8 79 fc ff ff       	call   11d0 <strtok@plt>
+    1557:	48 89 c3             	mov    %rax,%rbx
+    155a:	48 85 c0             	test   %rax,%rax
+    155d:	74 af                	je     150e <main+0x1a>
+    155f:	48 8d 35 b9 0a 00 00 	lea    0xab9(%rip),%rsi        # 201f <_IO_stdin_used+0x1f>
+    1566:	bf 00 00 00 00       	mov    $0x0,%edi
+    156b:	e8 60 fc ff ff       	call   11d0 <strtok@plt>
+    1570:	48 89 c5             	mov    %rax,%rbp
+    1573:	e8 a8 fb ff ff       	call   1120 <__ctype_toupper_loc@plt>
+    1578:	48 89 c2             	mov    %rax,%rdx
+    157b:	48 0f be 03          	movsbq (%rbx),%rax
+    157f:	48 c1 e0 02          	shl    $0x2,%rax
+    1583:	48 03 02             	add    (%rdx),%rax
+    1586:	8b 00                	mov    (%rax),%eax
+    1588:	83 f8 4c             	cmp    $0x4c,%eax
+    158b:	0f 84 ac 00 00 00    	je     163d <main+0x149>
+    1591:	7f 52                	jg     15e5 <main+0xf1>
+    1593:	83 f8 44             	cmp    $0x44,%eax
+    1596:	0f 84 94 00 00 00    	je     1630 <main+0x13c>
+    159c:	83 f8 48             	cmp    $0x48,%eax
+    159f:	0f 84 81 00 00 00    	je     1626 <main+0x132>
+    15a5:	83 f8 41             	cmp    $0x41,%eax
+    15a8:	0f 85 60 ff ff ff    	jne    150e <main+0x1a>
+    15ae:	e8 ed fd ff ff       	call   13a0 <user_answer>
+    15b3:	48 89 c3             	mov    %rax,%rbx
+    15b6:	48 85 c0             	test   %rax,%rax
+    15b9:	0f 84 88 00 00 00    	je     1647 <main+0x153>
+    15bf:	48 89 c2             	mov    %rax,%rdx
+    15c2:	48 8d 35 64 0a 00 00 	lea    0xa64(%rip),%rsi        # 202d <_IO_stdin_used+0x2d>
+    15c9:	bf 02 00 00 00       	mov    $0x2,%edi
+    15ce:	b8 00 00 00 00       	mov    $0x0,%eax
+    15d3:	e8 e8 fb ff ff       	call   11c0 <__printf_chk@plt>
+    15d8:	48 89 df             	mov    %rbx,%rdi
+    15db:	e8 50 fb ff ff       	call   1130 <free@plt>
+    15e0:	e9 29 ff ff ff       	jmp    150e <main+0x1a>
+    15e5:	83 f8 53             	cmp    $0x53,%eax
+    15e8:	74 1b                	je     1605 <main+0x111>
+    15ea:	83 f8 73             	cmp    $0x73,%eax
+    15ed:	74 16                	je     1605 <main+0x111>
+    15ef:	83 f8 4e             	cmp    $0x4e,%eax
+    15f2:	0f 85 16 ff ff ff    	jne    150e <main+0x1a>
+    15f8:	48 89 ef             	mov    %rbp,%rdi
+    15fb:	e8 e9 fc ff ff       	call   12e9 <user_insert>
+    1600:	e9 09 ff ff ff       	jmp    150e <main+0x1a>
+    1605:	e8 31 fe ff ff       	call   143b <user_delete_queue>
+    160a:	48 8b 44 24 68       	mov    0x68(%rsp),%rax
+    160f:	64 48 2b 04 25 28 00 	sub    %fs:0x28,%rax
+    1616:	00 00 
+    1618:	75 3e                	jne    1658 <main+0x164>
+    161a:	b8 01 00 00 00       	mov    $0x1,%eax
+    161f:	48 83 c4 78          	add    $0x78,%rsp
+    1623:	5b                   	pop    %rbx
+    1624:	5d                   	pop    %rbp
+    1625:	c3                   	ret
+    1626:	e8 b0 fe ff ff       	call   14db <help>
+    162b:	e9 de fe ff ff       	jmp    150e <main+0x1a>
+    1630:	48 89 ef             	mov    %rbp,%rdi
+    1633:	e8 ae fd ff ff       	call   13e6 <user_remove>
+    1638:	e9 d1 fe ff ff       	jmp    150e <main+0x1a>
+    163d:	e8 49 fe ff ff       	call   148b <user_print>
+    1642:	e9 c7 fe ff ff       	jmp    150e <main+0x1a>
+    1647:	48 8d 3d d4 09 00 00 	lea    0x9d4(%rip),%rdi        # 2022 <_IO_stdin_used+0x22>
+    164e:	e8 ed fa ff ff       	call   1140 <puts@plt>
+    1653:	e9 b6 fe ff ff       	jmp    150e <main+0x1a>
+    1658:	e8 03 fb ff ff       	call   1160 <__stack_chk_fail@plt>
+
+000000000000165d <list_insert_next>:
+    165d:	f3 0f 1e fa          	endbr64
+    1661:	55                   	push   %rbp
+    1662:	53                   	push   %rbx
+    1663:	48 83 ec 08          	sub    $0x8,%rsp
+    1667:	48 89 fb             	mov    %rdi,%rbx
+    166a:	48 89 f5             	mov    %rsi,%rbp
+    166d:	bf 18 00 00 00       	mov    $0x18,%edi
+    1672:	e8 29 fb ff ff       	call   11a0 <malloc@plt>
+    1677:	48 89 68 10          	mov    %rbp,0x10(%rax)
+    167b:	48 8b 13             	mov    (%rbx),%rdx
+    167e:	48 89 10             	mov    %rdx,(%rax)
+    1681:	48 89 58 08          	mov    %rbx,0x8(%rax)
+    1685:	48 89 42 08          	mov    %rax,0x8(%rdx)
+    1689:	48 89 03             	mov    %rax,(%rbx)
+    168c:	48 83 c4 08          	add    $0x8,%rsp
+    1690:	5b                   	pop    %rbx
+    1691:	5d                   	pop    %rbp
+    1692:	c3                   	ret
+
+0000000000001693 <list_insert_prev>:
+    1693:	f3 0f 1e fa          	endbr64
+    1697:	55                   	push   %rbp
+    1698:	53                   	push   %rbx
+    1699:	48 83 ec 08          	sub    $0x8,%rsp
+    169d:	48 89 fb             	mov    %rdi,%rbx
+    16a0:	48 89 f5             	mov    %rsi,%rbp
+    16a3:	bf 18 00 00 00       	mov    $0x18,%edi
+    16a8:	e8 f3 fa ff ff       	call   11a0 <malloc@plt>
+    16ad:	48 89 68 10          	mov    %rbp,0x10(%rax)
+    16b1:	48 89 18             	mov    %rbx,(%rax)
+    16b4:	48 8b 53 08          	mov    0x8(%rbx),%rdx
+    16b8:	48 89 50 08          	mov    %rdx,0x8(%rax)
+    16bc:	48 89 02             	mov    %rax,(%rdx)
+    16bf:	48 89 43 08          	mov    %rax,0x8(%rbx)
+    16c3:	48 83 c4 08          	add    $0x8,%rsp
+    16c7:	5b                   	pop    %rbx
+    16c8:	5d                   	pop    %rbp
+    16c9:	c3                   	ret
+
+00000000000016ca <list_remove>:
+    16ca:	f3 0f 1e fa          	endbr64
+    16ce:	48 83 ec 08          	sub    $0x8,%rsp
+    16d2:	48 8b 57 08          	mov    0x8(%rdi),%rdx
+    16d6:	48 8b 07             	mov    (%rdi),%rax
+    16d9:	48 89 02             	mov    %rax,(%rdx)
+    16dc:	48 8b 57 08          	mov    0x8(%rdi),%rdx
+    16e0:	48 89 50 08          	mov    %rdx,0x8(%rax)
+    16e4:	e8 47 fa ff ff       	call   1130 <free@plt>
+    16e9:	48 83 c4 08          	add    $0x8,%rsp
+    16ed:	c3                   	ret
+
+00000000000016ee <list_empty>:
+    16ee:	f3 0f 1e fa          	endbr64
+    16f2:	48 39 3f             	cmp    %rdi,(%rdi)
+    16f5:	0f 94 c0             	sete   %al
+    16f8:	c3                   	ret
+
+Disassembly of section .fini:
+
+00000000000016fc <_fini>:
+    16fc:	f3 0f 1e fa          	endbr64
+    1700:	48 83 ec 08          	sub    $0x8,%rsp
+    1704:	48 83 c4 08          	add    $0x8,%rsp
+    1708:	c3                   	ret
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ objdump -d a.out [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ º[Kar
+[?2004l]133;C\]666;vte.shell.preexec!\Usage: ar [emulation options] [-]{dmpqrstx}[abcDfilMNoOPsSTuvV] [--plugin <name>] [member-name] [count] archive-file file...
+       ar -M [<mri-script]
+ commands:
+  d            - delete file(s) from the archive
+  m[ab]        - move file(s) in the archive
+  p            - print file(s) found in the archive
+  q[f]         - quick append file(s) to the archive
+  r[ab][f][u]  - replace existing or insert new file(s) into the archive
+  s            - act as ranlib
+  t[O][v]      - display contents of the archive
+  x[o]         - extract file(s) from the archive
+ command specific modifiers:
+  [a]          - put file(s) after [member-name]
+  [b]          - put file(s) before [member-name] (same as [i])
+  [D]          - use zero for timestamps and uids/gids
+  [U]          - use actual timestamps and uids/gids (default)
+  [N]          - use instance [count] of name
+  [f]          - truncate inserted file names
+  [P]          - use full path names when matching
+  [o]          - preserve original dates
+  [O]          - display offsets of files in the archive
+  [u]          - only replace files that are newer than current archive contents
+ generic modifiers:
+  [c]          - do not warn if the library had to be created
+  [s]          - create an archive index (cf. ranlib)
+  [l <text> ]  - specify the dependencies of this library
+  [S]          - do not build a symbol table
+  [T]          - deprecated, use --thin instead
+  [v]          - be verbose
+  [V]          - display the version number
+  @<file>      - read options from <file>
+  --target=BFDNAME - specify the target object format as BFDNAME
+  --output=DIRNAME - specify the output directory for extraction operations
+  --record-libdeps=<text> - specify the dependencies of this library
+  --thin       - make a thin archive
+ optional:
+  --plugin <p> - load the specified plugin
+ emulation options: 
+  No emulation specific options
+ar: supported targets: elf64-x86-64 elf32-i386 elf32-iamcu elf32-x86-64 pei-i386 pe-x86-64 pei-x86-64 elf64-little elf64-big elf32-little elf32-big srec symbolsrec verilog tekhex binary ihex plugin
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ man ar
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[30;1H[?1h=[4mAR[24m(1)                        GNU Development Tools                        [4mAR[24m(1)[m
+[m
+[1mNAME[0m[m
+       ar - create, modify, and extract from archives[m
+[m
+[1mSYNOPSIS[0m[m
+       ar [[1m-X32_64[22m] [[1m-[22m][4mp[24m[[4mmod[24m] [[1m--plugin [4m[22mname[24m] [[1m--target [4m[22mbfdname[24m] [[1m--output[0m[m
+       [4mdirname[24m] [[1m--record-libdeps [4m[22mlibdeps[24m] [[1m--thin[22m] [[4mrelpos[24m] [[4mcount[24m] [4marchive[0m[m
+       [[4mmember[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       The GNU [1mar [22mprogram creates, modifies, and extracts from archives.  An[m
+       [4marchive[24m is a single file holding a collection of other files in a[m
+       structure that makes it possible to retrieve the original individual[m
+       files (called [4mmembers[24m of the archive).[m
+[m
+       The original files' contents, mode (permissions), timestamp, owner, and[m
+       group are preserved in the archive, and can be restored on extraction.[m
+[m
+       GNU [1mar [22mcan maintain archives whose members have names of any length;[m
+       however, depending on how [1mar [22mis configured on your system, a limit on[m
+       member-name length may be imposed for compatibility with archive formats[m
+       maintained with other tools.  If it exists, the limit is often 15[m
+       characters (typical of formats related to a.out) or 16 characters[m
+       (typical of formats related to coff).[m
+[m
+       [1mar [22mis considered a binary utility because archives of this sort are most[m
+       often used as [4mlibraries[24m holding commonly needed subroutines.  Since[m
+       libraries often will depend on other libraries, [1mar [22mcan also record the[m
+[7m Manual page ar(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ar cr list.o lits[K[Kst.a
+[?2004l]133;C\]666;vte.shell.preexec!\ar: list.o: file format not recognized
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ar cr list.o list.a[K[K[K[K[K[K[K[Ka list.o
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -l
+[?2004l]133;C\]666;vte.shell.preexec!\total 176
+-rwxrwxr-x+ 1 ezequiel ezequiel  17112 Nov 19 15:28 [0m[01;32ma.out[0m
+-rw-rw-r--+ 1 ezequiel ezequiel   2062 Nov 19 15:33 list.a
+-rw-rw-r--+ 1 ezequiel ezequiel    629 Nov 19 15:20 list.c
+-rw-rw-r--+ 1 ezequiel ezequiel    238 Nov 19 15:20 list.h
+-rw-rw-r--+ 1 ezequiel ezequiel   1856 Nov 19 15:21 list.o
+-rw-rw-r--+ 1 ezequiel ezequiel 122880 Nov 19 15:32 typescript
+-rw-r--r--+ 1 ezequiel ezequiel   2623 Nov 17 16:45 wqueue2.c
+-rw-rw-r--+ 1 ezequiel ezequiel   2531 Nov 19 15:27 wqueue3.c
+-rw-rw-r--  1 ezequiel ezequiel   5800 Nov 19 15:21 wqueue3.o
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ man ar
+[?2004l]133;C\]666;vte.shell.preexec!\[?1049h[22;0;0t[30;1H[?1h=[4mAR[24m(1)                        GNU Development Tools                        [4mAR[24m(1)[m
+[m
+[1mNAME[0m[m
+       ar - create, modify, and extract from archives[m
+[m
+[1mSYNOPSIS[0m[m
+       ar [[1m-X32_64[22m] [[1m-[22m][4mp[24m[[4mmod[24m] [[1m--plugin [4m[22mname[24m] [[1m--target [4m[22mbfdname[24m] [[1m--output[0m[m
+       [4mdirname[24m] [[1m--record-libdeps [4m[22mlibdeps[24m] [[1m--thin[22m] [[4mrelpos[24m] [[4mcount[24m] [4marchive[0m[m
+       [[4mmember[24m...][m
+[m
+[1mDESCRIPTION[0m[m
+       The GNU [1mar [22mprogram creates, modifies, and extracts from archives.  An[m
+       [4marchive[24m is a single file holding a collection of other files in a[m
+       structure that makes it possible to retrieve the original individual[m
+       files (called [4mmembers[24m of the archive).[m
+[m
+       The original files' contents, mode (permissions), timestamp, owner, and[m
+       group are preserved in the archive, and can be restored on extraction.[m
+[m
+       GNU [1mar [22mcan maintain archives whose members have names of any length;[m
+       however, depending on how [1mar [22mis configured on your system, a limit on[m
+       member-name length may be imposed for compatibility with archive formats[m
+       maintained with other tools.  If it exists, the limit is often 15[m
+       characters (typical of formats related to a.out) or 16 characters[m
+       (typical of formats related to coff).[m
+[m
+       [1mar [22mis considered a binary utility because archives of this sort are most[m
+       often used as [4mlibraries[24m holding commonly needed subroutines.  Since[m
+       libraries often will depend on other libraries, [1mar [22mcan also record the[m
+[7m Manual page ar(1) line 1 (press h for help or q to quit)[27m[K[K       dependencies of a library when the [1m--record-libdeps [22moption is specified.[m
+[7m Manual page ar(1) line 2 (press h for help or q to quit)[27m[K[K[m
+[7m Manual page ar(1) line 3 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -al
+[?2004l]133;C\]666;vte.shell.preexec!\total 188
+drwxrwxr-x+  2 ezequiel ezequiel   4096 Nov 19 15:33 [0m[01;34m.[0m
+drwxrwxr-x+ 20 ezequiel ezequiel   4096 Nov 19 13:59 [01;34m..[0m
+-rwxrwxr-x+  1 ezequiel ezequiel  17112 Nov 19 15:28 [01;32ma.out[0m
+-rw-rw-r--+  1 ezequiel ezequiel   2062 Nov 19 15:33 list.a
+-rw-rw-r--+  1 ezequiel ezequiel    629 Nov 19 15:20 list.c
+-rw-rw-r--+  1 ezequiel ezequiel    238 Nov 19 15:20 list.h
+-rw-rw-r--+  1 ezequiel ezequiel   1856 Nov 19 15:21 list.o
+-rw-rw-r--+  1 ezequiel ezequiel 126976 Nov 19 15:33 typescript
+-rw-r--r--+  1 ezequiel ezequiel   2623 Nov 17 16:45 wqueue2.c
+-rw-rw-r--+  1 ezequiel ezequiel   2531 Nov 19 15:27 wqueue3.c
+-rw-rw-r--   1 ezequiel ezequiel   5800 Nov 19 15:21 wqueue3.o
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -alman ar[1Pls -lar cr list.a list.o
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ar cr list.a list.o[C[1@l[1@i[1@b
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ rm list.a 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ rm list.a ar cr liblist.a list.o[3P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -al[Kman ar[1Pls -lar cr list.a list.oo list.a[C[C[C[C[C[C[C[C[C[Cman ar[K[4P[C[Cobjdump -d a.out [C[C[C[C[C[C[C[C[C[Cgcc wqueue3.o list.o [K[K[K[K[K[K[Kliblist.a 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o liblist.a [K[K[K[K[K[K[K[K[K[K-l list
+[?2004l]133;C\]666;vte.shell.preexec!\/usr/local/bin/ld: cannot find -llist: No such file or directory
+collect2: error: ld returned 1 exit status
+]666;vte.shell.postexec=1\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o -l list -L .
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o -l list -L .[Kliblist.a 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ gcc wqueue3.o liblist.a -l list -L .[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ 
+[?2004l]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make
+[?2004l]133;C\]666;vte.shell.preexec!\make: *** No targets specified and no makefile found.  Stop.
+]666;vte.shell.postexec=2\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ Makefile
+[?2004l]133;C\]666;vte.shell.preexec!\Makefile: command not found
+]666;vte.shell.postexec=127\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make
+[?2004l]133;C\]666;vte.shell.preexec!\gcc wqueue3.c -c
+gcc wqueue3.o list.o -o wqueue3
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make
+[?2004l]133;C\]666;vte.shell.preexec!\make: 'wqueue3' is up to date.
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make
+[?2004l]133;C\]666;vte.shell.preexec!\gcc list.c -c
+gcc wqueue3.o list.o -o wqueue3
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make
+[?2004l]133;C\]666;vte.shell.preexec!\make: 'wqueue3' is up to date.
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make[4@Makefil[C[4Pmak[C list.o
+[?2004l]133;C\]666;vte.shell.preexec!\make: 'list.o' is up to date.
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make clean 
+[?2004l]133;C\]666;vte.shell.preexec!\rm *.o
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -al
+[?2004l]133;C\]666;vte.shell.preexec!\total 216
+drwxrwxr-x+  2 ezequiel ezequiel   4096 Nov 19 15:53 [0m[01;34m.[0m
+drwxrwxr-x+ 20 ezequiel ezequiel   4096 Nov 19 13:59 [01;34m..[0m
+-rw-rw-r--+  1 ezequiel ezequiel    163 Nov 19 15:52 Makefile
+-rw-rw-r--+  1 ezequiel ezequiel    106 Nov 19 15:51 Makelib
+-rwxrwxr-x   1 ezequiel ezequiel  17112 Nov 19 15:39 [01;32ma.out[0m
+-rw-rw-r--+  1 ezequiel ezequiel   2062 Nov 19 15:38 liblist.a
+-rw-rw-r--+  1 ezequiel ezequiel    630 Nov 19 15:49 list.c
+-rw-rw-r--+  1 ezequiel ezequiel    238 Nov 19 15:20 list.h
+-rw-rw-r--+  1 ezequiel ezequiel 139264 Nov 19 15:53 typescript
+-rw-r--r--+  1 ezequiel ezequiel   2623 Nov 17 16:45 wqueue2.c
+-rwxrwxr-x   1 ezequiel ezequiel  17088 Nov 19 15:49 [01;32mwqueue3[0m
+-rw-rw-r--+  1 ezequiel ezequiel   2531 Nov 19 15:27 wqueue3.c
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ rm a.out 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ rm liblist.a 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -al
+[?2004l]133;C\]666;vte.shell.preexec!\total 192
+drwxrwxr-x+  2 ezequiel ezequiel   4096 Nov 19 15:53 [0m[01;34m.[0m
+drwxrwxr-x+ 20 ezequiel ezequiel   4096 Nov 19 13:59 [01;34m..[0m
+-rw-rw-r--+  1 ezequiel ezequiel    163 Nov 19 15:52 Makefile
+-rw-rw-r--+  1 ezequiel ezequiel    106 Nov 19 15:51 Makelib
+-rw-rw-r--+  1 ezequiel ezequiel    630 Nov 19 15:49 list.c
+-rw-rw-r--+  1 ezequiel ezequiel    238 Nov 19 15:20 list.h
+-rw-rw-r--+  1 ezequiel ezequiel 139264 Nov 19 15:53 typescript
+-rw-r--r--+  1 ezequiel ezequiel   2623 Nov 17 16:45 wqueue2.c
+-rwxrwxr-x   1 ezequiel ezequiel  17088 Nov 19 15:49 [01;32mwqueue3[0m
+-rw-rw-r--+  1 ezequiel ezequiel   2531 Nov 19 15:27 wqueue3.c
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make -f Makelib 
+[?2004l]133;C\]666;vte.shell.preexec!\gcc list.c -c
+ar cr liblist.a list.o
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -al
+[?2004l]133;C\]666;vte.shell.preexec!\total 204
+drwxrwxr-x+  2 ezequiel ezequiel   4096 Nov 19 15:53 [0m[01;34m.[0m
+drwxrwxr-x+ 20 ezequiel ezequiel   4096 Nov 19 13:59 [01;34m..[0m
+-rw-rw-r--+  1 ezequiel ezequiel    163 Nov 19 15:52 Makefile
+-rw-rw-r--+  1 ezequiel ezequiel    106 Nov 19 15:51 Makelib
+-rw-rw-r--+  1 ezequiel ezequiel   2206 Nov 19 15:53 liblist.a
+-rw-rw-r--+  1 ezequiel ezequiel    630 Nov 19 15:49 list.c
+-rw-rw-r--+  1 ezequiel ezequiel    238 Nov 19 15:20 list.h
+-rw-rw-r--+  1 ezequiel ezequiel   2000 Nov 19 15:53 list.o
+-rw-rw-r--+  1 ezequiel ezequiel 143360 Nov 19 15:54 typescript
+-rw-r--r--+  1 ezequiel ezequiel   2623 Nov 17 16:45 wqueue2.c
+-rwxrwxr-x   1 ezequiel ezequiel  17088 Nov 19 15:49 [01;32mwqueue3[0m
+-rw-rw-r--+  1 ezequiel ezequiel   2531 Nov 19 15:27 wqueue3.c
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls [K[K[Kmake clean 
+[?2004l]133;C\]666;vte.shell.preexec!\rm *.o
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ make clean [5Pls -almake -f Makelib clean 
+[?2004l]133;C\]666;vte.shell.preexec!\list.o
+make: list.o: No such file or directory
+make: *** [Makelib:10: clean] Error 127
+]666;vte.shell.postexec=2\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -al
+[?2004l]133;C\]666;vte.shell.preexec!\total 200
+drwxrwxr-x+  2 ezequiel ezequiel   4096 Nov 19 15:54 [0m[01;34m.[0m
+drwxrwxr-x+ 20 ezequiel ezequiel   4096 Nov 19 13:59 [01;34m..[0m
+-rw-rw-r--+  1 ezequiel ezequiel    163 Nov 19 15:52 Makefile
+-rw-rw-r--+  1 ezequiel ezequiel    106 Nov 19 15:51 Makelib
+-rw-rw-r--+  1 ezequiel ezequiel   2206 Nov 19 15:53 liblist.a
+-rw-rw-r--+  1 ezequiel ezequiel    630 Nov 19 15:49 list.c
+-rw-rw-r--+  1 ezequiel ezequiel    238 Nov 19 15:20 list.h
+-rw-rw-r--+  1 ezequiel ezequiel 143360 Nov 19 15:54 typescript
+-rw-r--r--+  1 ezequiel ezequiel   2623 Nov 17 16:45 wqueue2.c
+-rwxrwxr-x   1 ezequiel ezequiel  17088 Nov 19 15:49 [01;32mwqueue3[0m
+-rw-rw-r--+  1 ezequiel ezequiel   2531 Nov 19 15:27 wqueue3.c
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ rm liblist.a 
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ scr[K[K[Kexit[K[K[K[Krm e[Kwqueue3
+[?2004l]133;C\]666;vte.shell.preexec!\]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -al
+[?2004l]133;C\]666;vte.shell.preexec!\total 180
+drwxrwxr-x+  2 ezequiel ezequiel   4096 Nov 19 15:55 [0m[01;34m.[0m
+drwxrwxr-x+ 20 ezequiel ezequiel   4096 Nov 19 13:59 [01;34m..[0m
+-rw-rw-r--+  1 ezequiel ezequiel    163 Nov 19 15:52 Makefile
+-rw-rw-r--+  1 ezequiel ezequiel    106 Nov 19 15:51 Makelib
+-rw-rw-r--+  1 ezequiel ezequiel    630 Nov 19 15:49 list.c
+-rw-rw-r--+  1 ezequiel ezequiel    238 Nov 19 15:20 list.h
+-rw-rw-r--+  1 ezequiel ezequiel 147456 Nov 19 15:55 typescript
+-rw-r--r--+  1 ezequiel ezequiel   2623 Nov 17 16:45 wqueue2.c
+-rw-rw-r--+  1 ezequiel ezequiel   2531 Nov 19 15:27 wqueue3.c
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ ls -al
+[?2004l]133;C\]666;vte.shell.preexec!\total 180
+drwxrwxr-x+  2 ezequiel ezequiel   4096 Nov 19 15:55 [0m[01;34m.[0m
+drwxrwxr-x+ 20 ezequiel ezequiel   4096 Nov 19 13:59 [01;34m..[0m
+-rw-rw-r--+  1 ezequiel ezequiel    171 Nov 19 15:55 Makefile
+-rw-rw-r--+  1 ezequiel ezequiel    116 Nov 19 15:55 Makelib
+-rw-rw-r--+  1 ezequiel ezequiel    630 Nov 19 15:49 list.c
+-rw-rw-r--+  1 ezequiel ezequiel    238 Nov 19 15:20 list.h
+-rw-rw-r--+  1 ezequiel ezequiel 147456 Nov 19 15:55 typescript
+-rw-r--r--+  1 ezequiel ezequiel   2623 Nov 17 16:45 wqueue2.c
+-rw-rw-r--+  1 ezequiel ezequiel   2531 Nov 19 15:27 wqueue3.c
+]666;vte.shell.postexec=0\]7;file://ezequiel-NV41PZ/home/ezequiel/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]0;ezequiel@ezequiel-NV41PZ:~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list\]666;vte.shell.precmd!\[?2004h]0;ezequiel@ezequiel-NV41PZ: ~/Dropbox/disciplinas/psc/2627inv/psc-2627-1-leic31d/261119_list[01;32mezequiel[00m$ exit
+[?2004l]133;C\]666;vte.shell.preexec!\exit
+
+Script done on 2026-11-19 15:55:56+00:00 [COMMAND_EXIT_CODE="0"]

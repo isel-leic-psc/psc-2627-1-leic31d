@@ -1,0 +1,10 @@
+# Contem regras
+
+liblist.a: list.o
+	ar cr liblist.a list.o
+
+list.o: list.c
+	gcc list.c -c
+
+clean:
+	list.o liblist.a
