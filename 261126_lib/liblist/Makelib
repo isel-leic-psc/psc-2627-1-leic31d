@@ -1,0 +1,19 @@
+all: lib/liblist.so lib/liblist.a
+
+
+lib/liblist.so: build/list_pic.o
+	gcc -shared build/list_pic.o -o lib/liblist.so
+	
+lib/liblist.a: build/list.o
+	ar cr lib/liblist.a build/list.o
+
+
+build/list_pic.o: src/list.c
+	gcc src/list.c -c -fPIC -Iinclude -o build/list_pic.o
+	
+build/list.o: src/list.c
+	gcc src/list.c -c -Iinclude -o build/list.o
+
+clean:
+	rm -rf build/
+

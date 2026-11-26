@@ -1,0 +1,8 @@
+wqueue3: wqueue3.o
+	gcc wqueue3.o -l list -L liblist/lib -o wqueue3
+
+wqueue3.o: wqueue3.c
+	gcc wqueue3.c -c -I liblist/include
+
+clean:
+	rm *.o wqueue3
